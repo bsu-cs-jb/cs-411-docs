@@ -8,14 +8,20 @@ nav_order: 1
 
 ### Labs
 
+First lab on Friday, Aug, 25.
+
+{% comment %}
 - [Lab 01](lab-01)
+{% endcomment %}
 
 ### Projects
 
 No projects yet!
 
-### Resources
+### Class Resources
 
 - [Install tools](setup/install-tools.html)
 - [Generate project](setup/generate-project.html)
+
+[Links to online resources](online-resources.html)
 

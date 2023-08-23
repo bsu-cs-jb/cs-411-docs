@@ -8,4 +8,6 @@ url: https://bsu-cs-jb.github.io/cs-411-docs
 baseurl: /cs-411-docs
 
 aux_links:
-  GitHub Repository: https://github.com/bsu-cs-jb/cs-411-docs
+  React Native: https://reactnative.dev/docs/getting-started
+  Expo: https://docs.expo.dev/
+  # GitHub Repository: https://github.com/bsu-cs-jb/cs-411-docs
