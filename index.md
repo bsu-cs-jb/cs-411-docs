@@ -1,5 +1,5 @@
 ---
-title: CS 411
+title: Home
 layout: home
 ---
 
@@ -15,11 +15,16 @@ No labs yet!
 
 ### Projects
 
+{% if site.projects %}
+<ul>
 {% for project in site.projects %}
 - [{{project.title}}]({{site.baseurl}}{{project.url}})
+<li><a href="{{project.title}}{{project.title}}">{{project.title.title}}</a></li>
+</ul>
+{% endfor %}
 {% else %}
 No projects yet!
-{% endfor %}
+{% endif %}
 
 ### Resources
 
