@@ -6,3 +6,9 @@ url: https://bsu-cs-jb.github.io/cs-411-docs/
 
 aux_links:
   Template Repository: https://github.com/bsu-cs-jb/cs-411-docs
+
+collections:
+  - labs
+  - projects
+  - lectures
+  - resources
