@@ -1,5 +1,6 @@
 ---
 title: Initial setup
+slug: initial-setup
 layout: default
 ---
 
