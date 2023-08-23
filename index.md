@@ -9,7 +9,7 @@ layout: home
 ### Labs
 
 {% for lab in site.labs %}
-- [{{lab.name}}]({{lab.url}}): {{lab.goal}}
+- [{{lab.name}}](cs-411-docs/{{lab.url}}): {{lab.goal}}
   - Path: {{lab.path}}
   - Relative Path: {{lab.relative_path}}
   - URL: {{lab.url}}
@@ -23,7 +23,7 @@ layout: home
 {% for lab in site.labs %}
 
   <h2>
-    <a href="{{ lab }}">
+    <a href="{{ cs-411-docs/lab.url }}">
       {{ lab.name }} - {{ lab.goal }}
     </a>
   </h2>
@@ -32,6 +32,6 @@ layout: home
 ### Resources
 
 {% for resource in site.resources %}
-- [{{resource.relative_path}}]({{resource.url}})
+- [{{resource.title}}]({{resource.url}})
 {% endfor %}
 
