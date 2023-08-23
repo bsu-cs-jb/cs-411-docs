@@ -11,9 +11,5 @@ aux_links:
 collections:
   labs:
     output: true
-  projects:
-    output: true
-  lectures:
-    output: true
   resources:
     output: true
