@@ -1,3 +1,7 @@
+---
+name: Initial setup
+---
+
 ## Tools to Install
 
 - [React Native Expo Installation Guide](https://reactnative.dev/docs/environment-setup)
