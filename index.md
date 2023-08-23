@@ -9,14 +9,22 @@ layout: home
 ### Labs
 
 {% for lab in site.labs %}
-- [{{lab.name}}]({{lab.url}})
+- [{{lab.name}}]({{lab.url}}): {{lab.goal}}
+  - Path: {{lab.path}}
+  - Relative Path: {{lab.relative_path}}
+  - URL: {{lab.url}}
+  - Collection: {{lab.collection}}
+  - Date: {{lab.date}}
+ 
+{{ lab.content | markdownify }}
+
 {% endfor %}
 
 {% for lab in site.labs %}
 
   <h2>
-    <a href="{{ staff_member.url }}">
-      {{ staff_member.name }} - {{ staff_member.position }}
+    <a href="{{ lab }}">
+      {{ lab.name }} - {{ lab.goal }}
     </a>
   </h2>
 {% endfor %}
@@ -24,6 +32,6 @@ layout: home
 ### Resources
 
 {% for resource in site.resources %}
-- [{{resource.name}}]({{resource.url}})
+- [{{resource.relative_path}}]({{resource.url}})
 {% endfor %}
 
