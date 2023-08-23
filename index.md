@@ -9,10 +9,11 @@ layout: home
 ### Labs
 
 {% for lab in site.labs %}
-- [{{lab.title}}](cs-411-docs/{{lab.url}}): {{lab.goal}}
+- [{{lab.title}}]({{site.baseurl}}/{{lab.url}}): {{lab.goal}}
   - [cs-411-docs/{{lab.url}}](cs-411-docs/{{lab.url}})
   - [/{{lab.url}}](/{{lab.url}})
   - [{{site.baseurl}}/{{lab.url}}]({{site.baseurl}}/{{lab.url}})
+  - [{{site.baseurl}}{{lab.url}}]({{site.baseurl}}{{lab.url}})
   - Path: {{lab.path}}
   - Relative Path: {{lab.relative_path}}
   - URL: {{lab.url}}
