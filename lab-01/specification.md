@@ -1,6 +1,5 @@
 ---
-title: Lab 1 - Specification
-not_slug: lab-1-specification
+title: Specification
 layout: default
 parent: Lab 1
 nav_order: 1
