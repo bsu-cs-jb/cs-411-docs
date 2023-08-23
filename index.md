@@ -28,3 +28,11 @@ No projects yet!
 {% else %}
 No resources yet!
 {% endfor %}
+
+<ul>
+{% for resource in site.resources %}
+<li>[{{resource.title}}]({{site.baseurl}}{{resource.url}})</li>
+{% else %}
+No resources yet!
+{% endfor %}
+</ul>
