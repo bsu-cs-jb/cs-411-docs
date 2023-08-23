@@ -1,6 +1,6 @@
 ---
 title: Wednesday, Aug 23
-slug: wednesday
+slug: wednesday-aug-23
 layout: default
 parent: Week 1
 nav_order: 2
