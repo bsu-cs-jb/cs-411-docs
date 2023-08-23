@@ -1,5 +1,6 @@
 ---
 title: Install Tools
+slug: install-tools
 layout: default
 ---
 
