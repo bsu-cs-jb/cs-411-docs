@@ -10,6 +10,19 @@ aux_links:
 
 collections:
   labs:
+    permalink: "/:collection/:title"
     output: true
   resources:
+    permalink: "/:collection/:path/"
     output: true
+
+just_the_docs:
+  collections:
+    labs:
+      name: Labs
+      nav_exclude: false
+      search_exclude: false
+    resources:
+      name: Resources
+      nav_exclude: false
+      search_exclude: false
