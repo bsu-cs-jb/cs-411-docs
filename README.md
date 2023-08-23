@@ -1,4 +1,4 @@
-# just-the-docs-template
+# CS 411 Documentation Site
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
