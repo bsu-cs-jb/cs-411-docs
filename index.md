@@ -16,12 +16,12 @@ No labs yet!
 ### Projects
 
 {% if site.projects %}
+site.projects is true
 <ul>
 {% for project in site.projects %}
-- [{{project.title}}]({{site.baseurl}}{{project.url}})
 <li><a href="{{project.title}}{{project.title}}">{{project.title.title}}</a></li>
-</ul>
 {% endfor %}
+</ul>
 {% else %}
 No projects yet!
 {% endif %}
