@@ -31,7 +31,7 @@ No resources yet!
 
 <ul>
 {% for resource in site.resources %}
-<li>[{{resource.title}}]({{site.baseurl}}{{resource.url}})</li>
+<li><a href="{{site.baseurl}}{{resource.url}}">{{resource.title}}</a></li>
 {% else %}
 No resources yet!
 {% endfor %}
