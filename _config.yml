@@ -13,9 +13,11 @@ collections:
     permalink: "/:collection/:title"
     output: true
   resources:
-    permalink: "/:collection/:path/"
+    permalink: "/:collection/:title"
     output: true
-    layout: default
+  projects:
+    permalink: "/:collection/:title"
+    output: true
 
 just_the_docs:
   collections:
@@ -24,6 +26,10 @@ just_the_docs:
       nav_exclude: false
       search_exclude: false
     resources:
+      name: Resources
+      nav_exclude: false
+      search_exclude: false
+    projects:
       name: Resources
       nav_exclude: false
       search_exclude: false
