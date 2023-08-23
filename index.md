@@ -9,9 +9,14 @@ layout: home
 
 {% for lab in site.labs %}
 - [{{lab.title}}]({{site.baseurl}}{{lab.url}}): {{lab.goal}}
- 
-{{ lab.content | markdownify }}
+{% endfor %}
 
+### Projects
+
+{% for project in site.projects %}
+- [{{project.title}}]({{site.baseurl}}{{project.url}})
+{% else %}
+No projects yet!
 {% endfor %}
 
 ### Resources
@@ -19,4 +24,3 @@ layout: home
 {% for resource in site.resources %}
 - [{{resource.title}}]({{site.baseurl}}{{resource.url}})
 {% endfor %}
-
