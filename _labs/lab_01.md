@@ -1,5 +1,6 @@
 ---
 name: Lab 1
+title: Lab 1
 slug: lab-1
 goal: Install tools and submit project
 layout: home
