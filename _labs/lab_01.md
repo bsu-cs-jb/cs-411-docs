@@ -2,8 +2,8 @@
 title: Lab 1
 slug: lab-1
 goal: Install tools and submit project
-layout: home
-published: false
+layout: default
+published: true
 ---
 
 # Lab 1
