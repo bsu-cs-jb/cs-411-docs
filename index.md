@@ -9,6 +9,8 @@ layout: home
 
 {% for lab in site.labs %}
 - [{{lab.title}}]({{site.baseurl}}{{lab.url}}): {{lab.goal}}
+{% else %}
+No labs yet!
 {% endfor %}
 
 ### Projects
@@ -23,4 +25,6 @@ No projects yet!
 
 {% for resource in site.resources %}
 - [{{resource.title}}]({{site.baseurl}}{{resource.url}})
+{% else %}
+No resources yet!
 {% endfor %}
