@@ -1,5 +1,5 @@
 ---
-name: Initial setup
+title: Initial setup
 ---
 
 ## Tools to Install
