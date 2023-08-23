@@ -23,8 +23,7 @@ Course tools
 
 ## Class Resources
 
-- [Install tools](setup/install-tools.html)
-- [Generate project](setup/generate-project.html)
+{% include setup-links.md %}
 
 ## Online Resources
 
