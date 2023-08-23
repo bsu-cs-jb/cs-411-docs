@@ -14,8 +14,8 @@ layout: home
   - [/{{lab.url}}](/{{lab.url}})
   - [{{site.baseurl}}/{{lab.url}}]({{site.baseurl}}/{{lab.url}})
   - [{{site.baseurl}}{{lab.url}}]({{site.baseurl}}{{lab.url}})
-  - Path: {{lab.path}}
-  - Relative Path: {{lab.relative_path}}
+  - Path: [{{lab.path}}]({{lab.path}})
+  - Relative Path: [{{lab.relative_path}}]({{lab.relative_path}})
   - URL: {{lab.url}}
   - Collection: {{lab.collection}}
   - Title: {{lab.title}}
@@ -41,5 +41,7 @@ layout: home
 
 {% for resource in site.resources %}
 - [{{resource.title}}]({{resource.url}})
+- [{{resource.title}}]({{site.baseurl}}/{{resource.url}})
+- [{{resource.path}}]({{resource.path}})
 {% endfor %}
 
