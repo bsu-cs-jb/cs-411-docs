@@ -8,6 +8,5 @@ nav_order: 2
 # Week 1
 
 - [Monday, Aug 21](monday.html)
-- [Wednesday, Aug 23]
-- [Friday, Aug 25]({{page.url}}friday.html)
-  - [Friday, Aug 25](friday.html)
+- [[Wednesday, Aug 23]]
+- [Friday, Aug 25](friday.html)
