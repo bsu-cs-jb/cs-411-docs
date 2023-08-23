@@ -7,6 +7,5 @@ nav_order: 2
 
 # Week 1
 
-- [Monday, Aug 21](monday.html)
-- [[Wednesday, Aug 23]]
-- [Friday, Aug 25](friday.html)
+Introduction to the course, contents, and tools used in the course.
+

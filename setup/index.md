@@ -1,8 +1,7 @@
 ---
-title: Lab 1
+title: Setup
 layout: default
-nav_order: 20
 has_children: true
+nav_order: 100
 ---
 
-# Lab 1
