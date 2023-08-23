@@ -28,7 +28,7 @@ site.projects is true
 
 ### Resources
 
-{% for resource in site.resources %}
+{% for resource in site.resources -%}
 - [{{resource.title}}]({{site.baseurl}}{{resource.url}})
 {% else %}
 No resources yet!
