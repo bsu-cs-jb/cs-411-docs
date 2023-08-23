@@ -15,6 +15,7 @@ collections:
   resources:
     permalink: "/:collection/:path/"
     output: true
+    layout: default
 
 just_the_docs:
   collections:
