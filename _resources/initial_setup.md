@@ -1,5 +1,6 @@
 ---
 title: Initial setup
+layout: default
 ---
 
 ## Tools to Install
