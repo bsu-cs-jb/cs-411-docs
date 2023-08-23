@@ -1,6 +1,7 @@
 ---
 name: Lab 1
 goal: Install tools and submit project
+layout: home
 ---
 
 # Lab 1
