@@ -2,7 +2,8 @@
 title: Lab 1 - Specification
 not_slug: lab-1-specification
 layout: default
-nav_order: 3
+parent: Lab 1
+nav_order: 1
 ---
 
 # Lab 1: Spec
