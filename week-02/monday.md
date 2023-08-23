@@ -1,7 +1,7 @@
 ---
-title: Monday
+title: Monday, Aug 28
 parent: Week 2
 layout: default
 ---
 
-# Monday, Week 2
+# Monday Aug 28, Week 2
