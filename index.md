@@ -15,15 +15,15 @@ No labs yet!
 
 ### Projects
 
-{% if site.projects %}
+{% if site.projects == empty %}
+No projects yet!
+{% else %}
 site.projects is true
 <ul>
 {% for project in site.projects %}
 <li><a href="{{project.title}}{{project.title}}">{{project.title.title}}</a></li>
 {% endfor %}
 </ul>
-{% else %}
-No projects yet!
 {% endif %}
 
 ### Resources
