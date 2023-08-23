@@ -9,29 +9,3 @@ baseurl: /cs-411-docs
 
 aux_links:
   GitHub Repository: https://github.com/bsu-cs-jb/cs-411-docs
-
-collections:
-  labs:
-    permalink: "/:collection/:title"
-    output: true
-  resources:
-    permalink: "/:collection/:title"
-    output: true
-  projects:
-    permalink: "/:collection/:title"
-    output: true
-
-just_the_docs:
-  collections:
-    labs:
-      name: Labs
-      nav_exclude: false
-      search_exclude: false
-    resources:
-      name: Resources
-      nav_exclude: false
-      search_exclude: false
-    projects:
-      name: Projects
-      nav_exclude: false
-      search_exclude: false

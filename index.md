@@ -8,24 +8,14 @@ nav_order: 1
 
 ### Labs
 
-{% for lab in site.labs -%}
-- [{{lab.title}}]({{site.baseurl}}{{lab.url}}): {{lab.goal}}
-{% else %}
-No labs yet!
-{% endfor %}
+- [Lab 01](lab-01)
 
 ### Projects
 
-{% for project in site.projects -%}
-- [{{project.title}}]({{site.baseurl}}{{project.url}})
-{% else %}
 No projects yet!
-{% endfor %}
 
 ### Resources
 
-{% for resource in site.resources -%}
-- [{{resource.title}}]({{site.baseurl}}{{resource.url}})
-{% else %}
-No resources yet!
-{% endfor %}
+- [Install tools](setup/install-tools.html)
+- [Generate project](setup/generate-project.html)
+

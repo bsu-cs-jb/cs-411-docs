@@ -35,3 +35,15 @@ something you find interesting.
 - [ ] The repository is registered with your name in GitHub classroom using the
   GitHub organization for our course.
 
+## Class Resources
+
+- [Install tools](setup/install-tools.html)
+- [Generate project](setup/generate-project.html)
+
+## Online Resources
+
+- [React Native Introduction](https://reactnative.dev/docs/getting-started)
+- [React Native Core Components and APIs](https://reactnative.dev/docs/components-and-apis)
+
+
+
