@@ -8,7 +8,11 @@ aux_links:
   Template Repository: https://github.com/bsu-cs-jb/cs-411-docs
 
 collections:
-  - labs
-  - projects
-  - lectures
-  - resources
+  labs:
+    output: true
+  projects:
+    output: true
+  lectures:
+    output: true
+  resources:
+    output: true
