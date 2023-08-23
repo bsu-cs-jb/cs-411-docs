@@ -1,6 +1,6 @@
 ---
-title: Lab 1: Specification
-slug: initial-setup
+title: Lab 1 - Specification
+not_slug: lab-1-specification
 layout: default
 ---
 
