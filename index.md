@@ -7,7 +7,7 @@ layout: home
 
 ### Labs
 
-{% for lab in site.labs %}
+{% for lab in site.labs -%}
 - [{{lab.title}}]({{site.baseurl}}{{lab.url}}): {{lab.goal}}
 {% else %}
 No labs yet!
@@ -15,16 +15,11 @@ No labs yet!
 
 ### Projects
 
-{% if site.projects == empty %}
-No projects yet!
+{% for project in site.projects -%}
+- [{{project.title}}]({{site.baseurl}}{{project.url}})
 {% else %}
-site.projects is true
-<ul>
-{% for project in site.projects %}
-<li><a href="{{project.title}}{{project.title}}">{{project.title.title}}</a></li>
+No projects yet!
 {% endfor %}
-</ul>
-{% endif %}
 
 ### Resources
 
@@ -33,11 +28,3 @@ site.projects is true
 {% else %}
 No resources yet!
 {% endfor %}
-
-<ul>
-{% for resource in site.resources %}
-<li><a href="{{site.baseurl}}{{resource.url}}">{{resource.title}}</a></li>
-{% else %}
-No resources yet!
-{% endfor %}
-</ul>
