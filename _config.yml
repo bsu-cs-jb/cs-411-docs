@@ -30,6 +30,6 @@ just_the_docs:
       nav_exclude: false
       search_exclude: false
     projects:
-      name: Resources
+      name: Projects
       nav_exclude: false
       search_exclude: false
