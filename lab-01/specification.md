@@ -28,7 +28,9 @@ something you find interesting.
 
 I am still working out how to use a full grading rubric. These are the basic
 expectations I have for the first lab at increasing levels of achieving learning
-outcomes and demonstrating mastery.
+outcomes and demonstrating mastery. Please read these lists carefully and ensure
+that you have completed everything on each list that indicates the level of
+mastery of the outcomes that you plan to achieve.
 
 ### Unacceptable
 

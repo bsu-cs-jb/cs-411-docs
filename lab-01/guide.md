@@ -160,7 +160,8 @@ This application is very boring. Customize the application to express anything
 that you would like. You can add something serious, silly, morose or joyful. Add
 some text, change some colors, and add at least one image in the `assets`
 folder. You may load additional images from URLs, but at least one image must be
-included within the app bundle.
+included within the app bundle. Also, there is a list of questions in the
+`README.md` in the application template that you should answer.
 
 We touched briefly on components and styles on
 [Monday]({% link week-01/monday.md %}) during the demo. Since we didn't review
