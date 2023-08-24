@@ -140,12 +140,65 @@ npm install
 npm exec expo export
 ```
 
-## Class Resources
+## 5. Launch the app using Expo
+
+Start the Expo server by running:
+
+```bash
+npm start
+```
+
+Above the QR code you will see a warning that the version of `@types/react` that
+is installed does not match the installed version of `expo`. Fix this warning as
+demonstrated in class on [Wednesday]({% link week-01/wednesday.md %}). If you
+missed class or need help you can find instructions at the end of the
+[Setup / Generate project]({% link setup/generate-project.md %}) page.
+
+## 6. Customize your application
+
+This application is very boring. Customize the application to express anything
+that you would like. You can add something serious, silly, morose or joyful. Add
+some text, change some colors, and add at least one image in the `assets`
+folder. You may load additional images from URLs, but at least one image must be
+included within the app bundle.
+
+We touched briefly on components and styles on
+[Monday]({% link week-01/monday.md %}) during the demo. Since we didn't review
+that again on Wednesday, my expectations are light, but feel free to surprise
+me. The React Native documentation online has plenty of details and clearly
+explain how to lay out components and style them. For the first lab, I want you
+to play around and see what happens. I will not grade on graphic design or
+visual appeal, but to get full points you will need to have something more than
+a white background with small black text.
+
+See the [React Native] for information on different components. This 
+[two hour React Native Tutorial by Mosh](https://youtu.be/0-S5a0eXPoc?si=FCmPbC75JO17quwF&)
+is very good and covers everything you need to know to lay out and style a basic
+application. The first 46 minutes cover setup, running and debugging. At
+[46:30](https://youtu.be/0-S5a0eXPoc?si=ZqLF5lSeRLMTk_Gi&t=2790) he starts
+discussing fundamental concepts and if you want to see how to work with images,
+skip ahead to
+[53:52](https://youtu.be/0-S5a0eXPoc?si=FCmPbC75JO17quwF&t=3230) and watch that
+section.
+
+## HELP!
+
+If you're struggling, ask me for help and ask you classmates for help. Helping
+each other debug and solve problems is a good skill to develop. Please do your
+own work but you may discuss bugs, errors and resources that you find valuable.
+Please share these back with the rest of the students as well (I will work on a
+solution for sharing online, probably in Canvas; if you have any suggestions
+please let me know).
+
+### Class Resources
 
 {% include setup-links.md %}
 
-## Online Resources
+### Online Resources
 
+- [React Native Troubleshooting](https://reactnative.dev/docs/troubleshooting)
+    - this page lists many commonly encountered errors. It is a good place to
+      start
 - [React Native Introduction](https://reactnative.dev/docs/getting-started)
 - [React Native Core Components and APIs](https://reactnative.dev/docs/components-and-apis)
 
