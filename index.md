@@ -8,11 +8,7 @@ nav_order: 1
 
 ### Labs
 
-First lab on Friday, Aug, 25.
-
-{% comment %}
-- [Lab 01]({% link lab-01/index.md %})
-{% endcomment %}
+- [Lab 01]({% link lab-01/specification.md %}): First React Native project
 
 ### Projects
 
