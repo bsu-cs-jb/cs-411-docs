@@ -40,6 +40,7 @@ outcomes and demonstrating mastery.
 
 - [ ] The project exists on the `main` branch on GitHub of the git repository.
 - [ ] Autograding: `npm install` completes successfully
+- [ ] Fill out answers to questions and prompts in README.md
 
 ### Meets Expectations
 
