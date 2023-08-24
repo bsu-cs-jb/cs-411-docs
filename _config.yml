@@ -1,9 +1,8 @@
-title: CS 411 Doc Site
-description: Documentation for CS 411
+title: CS 411 Course Site
+description: Course site for CS 411, Fall 2023
 theme: just-the-docs
 
-url: https://bsu-cs-jb.github.io/cs-411-docs
-url: https://bsu-cs-jb.github.io/cs-411-docs
+# url: https://bsu-cs-jb.github.io/cs-411-docs
 # baseurl: https://bsu-cs-jb.github.io/cs-411-docs
 baseurl: /cs-411-docs
 
