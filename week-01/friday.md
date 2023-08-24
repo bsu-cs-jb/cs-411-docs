@@ -8,4 +8,4 @@ nav_order: 3
 
 # Friday
 
-Lab 1
+[Lab 01]({% link lab-01/specification.md %}): First React Native project
