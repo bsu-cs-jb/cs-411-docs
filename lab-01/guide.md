@@ -172,14 +172,12 @@ visual appeal, but to get full points you will need to have something more than
 a white background with small black text.
 
 See the [React Native] for information on different components. This 
-[two hour React Native Tutorial by Mosh](https://youtu.be/0-S5a0eXPoc?si=FCmPbC75JO17quwF&)
+[two hour React Native Tutorial by Mosh](https://youtu.be/0-S5a0eXPoc)
 is very good and covers everything you need to know to lay out and style a basic
 application. The first 46 minutes cover setup, running and debugging. At
-[46:30](https://youtu.be/0-S5a0eXPoc?si=ZqLF5lSeRLMTk_Gi&t=2790) he starts
-discussing fundamental concepts and if you want to see how to work with images,
-skip ahead to
-[53:52](https://youtu.be/0-S5a0eXPoc?si=FCmPbC75JO17quwF&t=3230) and watch that
-section.
+[46:30](https://youtu.be/0-S5a0eXPoc?t=2790) he starts discussing fundamental
+concepts and if you want to see how to work with images, skip ahead to
+[53:52](https://youtu.be/0-S5a0eXPoc?t=3230) and watch that section.
 
 ## HELP!
 

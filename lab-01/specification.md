@@ -19,7 +19,7 @@ See the [Lab 1 Guide]({% link lab-01/guide.md %}) for detailed instructions.
 
 1. Follow along with the lab instructions as demonstrated in class and setup a
    React Native development environment on your laptop.
-2. Register with GitHub classroom and create the repository for Lab01 from the
+2. Register with GitHub classroom and create the repository for `lab-01` from the
    template.
 3. Generate a React Native project in this repository using expo.
 4. Customize the generated project to share something unique or interesting
