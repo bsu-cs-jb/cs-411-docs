@@ -13,6 +13,8 @@ Build your first React Native app and create something that reflects who you are
 as a person. Include some information about yourself, what you enjoy doing or
 something you find interesting.
 
+See the [Lab 1 Guide]({% link lab-01/guide.md %}) for detailed instructions.
+
 ## Process
 
 1. Follow along with the lab instructions as demonstrated in class and setup a
@@ -22,7 +24,7 @@ something you find interesting.
 3. Generate a React Native project in this repository using expo.
 4. Customize the generated project to share something unique or interesting
    about yourself
-5. Answer the questions from the lab
+5. Answer the questions in the README.md
 
 ## Rubric
 
@@ -50,6 +52,9 @@ to complete them roughly from top to bottom since they build upon one another.
 ### Bonus achievements
 
 - [ ] App includes interactions such as scrolling, swiping, input or buttons
+
+
+Reminder: See the [Lab 1 Guide]({% link lab-01/guide.md %}) for detailed instructions.
 
 ## Class Resources
 
