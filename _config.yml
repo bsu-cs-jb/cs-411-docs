@@ -6,6 +6,13 @@ theme: just-the-docs
 # baseurl: https://bsu-cs-jb.github.io/cs-411-docs
 baseurl: /cs-411-docs
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Session.vim
+
 aux_links:
   React Native: https://reactnative.dev/docs/getting-started
   Expo: https://docs.expo.dev/
