@@ -26,43 +26,29 @@ something you find interesting.
 
 ## Rubric
 
-I am still working out how to use a full grading rubric. These are the basic
-expectations I have for the first lab at increasing levels of achieving learning
-outcomes and demonstrating mastery. Please read these lists carefully and ensure
-that you have completed everything on each list that indicates the level of
-mastery of the outcomes that you plan to achieve.
-
-### Unacceptable
-
-- no submission
-- submission is malformed and does not build or run
-- plagiarism or cheating
-
-### Below Expectations
+These are the expectations I have for the first lab at increasing levels of
+mastery. The items are listed roughly in order of demonstration of mastery, with
+the most basic items at the top and the most advanced at the bottom. The idea is
+to complete them roughly from top to bottom since they build upon one another.
 
 - [ ] The project exists on the `main` branch on GitHub of the git repository.
-- [ ] Autograding: `npm install` completes successfully
 - [ ] Fill out answers to questions and prompts in README.md
-
-### Meets Expectations
-
-- [ ] All requirements from previous levels
+    - There are 6 checkbox items to complete in the README.md after you clone the
+    GitHub Classroom repository
+- [ ] Autograding: `npm install` completes successfully
 - [ ] Autograding: `npm exec expo export` completes successfully
 - [ ] The project builds successfully when tested
 - [ ] The repository is registered with your name in GitHub classroom using the
   GitHub organization for our course.
 - [ ] No warnings or errors when building the project
-
-### Exceeds Expectations
-
-- [ ] All requirements from previous levels
 - [ ] No assets or files are missing when the app is executed
+- [ ] The mobile app looks and works the same when evaluated by the instructor
+  as in your own development system
 - [ ] Coding style matches the generated code (we will expand on good coding
   style in the next several weeks)
 
-### Bonus points
+### Bonus achievements
 
-- [ ] All requirements from previous levels
 - [ ] App includes interactions such as scrolling, swiping, input or buttons
 
 ## Class Resources

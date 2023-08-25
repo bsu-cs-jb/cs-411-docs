@@ -129,9 +129,8 @@ workflows that have been run in this repository. You can click on commit text
 link which will open the action run and show you the steps in the workflow.
 Click on a workflow step in the diagram to view the commands that were executed.
 If you have any failures, check here for error messages and try to resolve them
-by searching online or reviewing the steps of this guide. If you cannot
-understand the error message, send it to me or share it with the class during
-lab on Friday.
+by searching online or reviewing the steps of this guide. If you cannot resolve
+the problem, send it to me or share it with the class during lab on Friday.
 
 The GitHub Actions run two commands which you can test locally on your laptop:
 
