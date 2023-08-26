@@ -1,8 +1,8 @@
 ---
 title: Expo web issue
 layout: default
-parent: Setup
-nav_order: 3
+parent: Troubleshooting
+nav_order: 1
 ---
 
 # Testing React Native app in `web`

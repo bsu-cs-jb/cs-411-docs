@@ -37,6 +37,12 @@ you):
 git clone https://github.com/bsu-cs-jb/test-lab-01-admired-glory.git
 ```
 
+You can also clone your repository using the git version control integration in
+your IDE of choice. Visual Studio Code can 
+[clone a github repo](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository)
+as well as any IDE from JetBrains. JetBrains makes intelliJ IDEA for Java,
+PyCharm for Python and WebStorm for JavaScript. 
+
 Help on accessing GitHub
 
 - [Connecting to remote repositories](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
@@ -63,10 +69,15 @@ deleted, run the `create-expo-app` command below. When that is complete,
 checkout the deleted files from GitHub again and you can then commit the newly
 created React Native project.
 
-On macOS or in Windows Subsystem for Linux (WSL), and possibly inside the shell
-that Git installs in Windows, you can run the following commands. I'll grant
-bonus points for the first student that submits a working solution for all of
-these commands on Windows (send me an email or Canvas message).
+My recommendation for Windows users is to run "Git Bash" which is installed with
+git. This shell supports nearly the same set of commands that are used on macOS
+and Linux which both run `bash` shells (command lines). If you use PowerShell I
+can only offer limited assistance.
+
+I'll grant bonus points for the first student that submits a working solution
+for all of these commands in PowerShell (send me an email or Canvas message).
+
+
 
 1. Enter the directory
 
@@ -76,11 +87,18 @@ these commands on Windows (send me an email or Canvas message).
 
 2. Delete the files
 
+    Use the following commands or you can delete them in the UI using Explorer
+    or your IDE.
+
     ```bash
-    rm -rf README.md .github
+    rm README.md
+    rm -rf .github
     ```
 
 3. Generate the React Native project
+
+    This command should work in any shell (command line) including PowerShell as
+    long as you have installed Node.js with command line tools successfully.
 
     - `-t expo-template-blank-typescript` selects the blank TypeScript template
     - `--no-install` skips running `npm install` to save time
@@ -90,6 +108,8 @@ these commands on Windows (send me an email or Canvas message).
     ```
 
 4. Restore the files by checking them out from git
+
+    You can also do this from your IDE.
 
     ```bash
     git checkout HEAD -- README.md .github/*
@@ -102,6 +122,8 @@ these commands on Windows (send me an email or Canvas message).
     ```
 
 6. Add, commit and push the changes to your repository
+
+    Again, you may use your IDE for this and use any commit message you prefer.
 
     ```bash
     git add .
@@ -146,6 +168,14 @@ Start the Expo server by running:
 ```bash
 npm start
 ```
+
+[Install Expo Go]({{ site.baseurl }}/setup/install-tools.html#install-the-expo-go-mobile-app-on-your-device)
+on your mobile device.
+
+This will bundle your project using the Metro Bundler and host it on your local
+network. You can connect to the Expo server by entering the `exp://x.x.x.x:port`
+URL into Expo Go on your device or by scanning the QR code (which will do the
+same thing).
 
 Above the QR code you will see a warning that the version of `@types/react` that
 is installed does not match the installed version of `expo`. Fix this warning as

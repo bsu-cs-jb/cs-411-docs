@@ -9,8 +9,9 @@ nav_order: 2
 
 First [Install the course tools](install-tools.html).
 
+## Generate the React Native skeletong
 
-Open a command prompt and execute:
+Open a command prompt (Git Bash is recommended on Windows) and execute:
 
 ```bash
 npx create-expo-app -t expo-template-blank-typescript MyFirstProject
@@ -26,6 +27,8 @@ develop React Native are published as packages on npm. `npx` is useful because
 it allows us to execute packages without needing to first download and install
 them.
 
+## Explanation of the project structure
+
 This command will create a new directory called `MyFirstProject` in the current
 folder. This folder will be setup to run an Expo project using TypeScript. The
 folder will contain the following files:
@@ -39,6 +42,8 @@ folder will contain the following files:
 - `package.json` - configures this node package and its dependencies
 - `tsconfig.json` - TypeScript compiler configuration
 
+## Start Expo and run the app on your device
+
 To start your expo server run:
 
 ```bash
@@ -46,10 +51,15 @@ cd MyFirstProject
 npm start
 ```
 
+[Install Expo Go]({{ site.baseurl }}/setup/install-tools.html#install-the-expo-go-mobile-app-on-your-device)
+on your mobile device.
+
 This will bundle your project using the Metro Bundler and host it on your local
 network. You can connect to the Expo server by entering the `exp://x.x.x.x:port`
 URL into Expo Go on your device or by scanning the QR code (which will do the
 same thing).
+
+## Fixing the version incompatibility notice
 
 When you run this for the first time you will notice a warning about
 incompatible dependencies. Let's fix that. When I run it, it shows this:
@@ -77,6 +87,5 @@ npm install
 ```
 
 Now, launch Expo again and be sure the warnings do not appear.
-
 
 
