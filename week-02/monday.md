@@ -4,4 +4,4 @@ parent: Week 2, Aug 28
 layout: default
 ---
 
-# Monday Aug 28, Week 2
+# {{ page.title }}

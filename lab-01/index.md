@@ -5,4 +5,4 @@ nav_order: 20
 has_children: true
 ---
 
-# Lab 1
+# {{ page.title }}

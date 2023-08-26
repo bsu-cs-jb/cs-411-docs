@@ -5,6 +5,6 @@ has_children: true
 nav_order: 3
 ---
 
-# Week 2
+# {{ page.title }}
 
 Starting Aug 28.

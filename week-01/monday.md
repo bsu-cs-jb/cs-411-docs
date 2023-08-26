@@ -5,6 +5,6 @@ parent: Week 1, Aug 21
 nav_order: 1
 ---
 
-# Monday
+# {{ page.title }}
 
 Course introduction and demo.

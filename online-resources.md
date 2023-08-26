@@ -4,7 +4,7 @@ layout: default
 nav_order: 140
 ---
 
-# Online Resources
+# {{ page.title }}
 
 ## React Native
 

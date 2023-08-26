@@ -6,7 +6,7 @@ parent: Week 1, Aug 21
 nav_order: 2
 ---
 
-# Wednesday, Aug 23
+# {{ page.title }}
 
 ## Topics
 
