@@ -3,7 +3,7 @@ title: Addenda
 layout: default
 parent: Lab 1
 nav_order: 5
-published: false
+published: true
 ---
 
 # {{ page.parent }}: {{ page.title }}
