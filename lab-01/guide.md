@@ -61,75 +61,14 @@ play nicely together so we'll need to do a few tricks to make this work.
 Open the repository that you cloned in the previous step and prepare to generate
 a new React Native project using TypeScript. The `create-expo-app` command will
 generate the project in the current directory, however it complains about the
-existing `README.md` file and the files inside the `.github/` folder. The
-easiest solution I found it to deleted those files temporarily, generate the
-React Native project, then restore the files using `git`. The files can be
-deleted from the command line or using Explorer or any IDE. After they are
-deleted, run the `create-expo-app` command below. When that is complete,
-checkout the deleted files from GitHub again and you can then commit the newly
-created React Native project.
+existing `README.md` file and the files inside the `.github/` folder.
 
 My recommendation for Windows users is to run "Git Bash" which is installed with
 git. This shell supports nearly the same set of commands that are used on macOS
 and Linux which both run `bash` shells (command lines). If you use PowerShell I
 can only offer limited assistance.
 
-I'll grant bonus points for the first student that submits a working solution
-for all of these commands in PowerShell (send me an email or Canvas message).
-
-
-
-1. Enter the directory
-
-    ```bash
-    cd lab-01-<github-username>
-    ```
-
-2. Delete the files
-
-    Use the following commands or you can delete them in the UI using Explorer
-    or your IDE.
-
-    ```bash
-    rm README.md
-    rm -rf .github
-    ```
-
-3. Generate the React Native project
-
-    This command should work in any shell (command line) including PowerShell as
-    long as you have installed Node.js with command line tools successfully.
-
-    - `-t expo-template-blank-typescript` selects the blank TypeScript template
-    - `--no-install` skips running `npm install` to save time
-
-    ```bash
-    npx create-expo-app -t expo-template-blank-typescript --no-install .
-    ```
-
-4. Restore the files by checking them out from git
-
-    You can also do this from your IDE.
-
-    ```bash
-    git checkout HEAD -- README.md .github/*
-    ```
-
-5. Install the Expo and React Native packages
-
-    ```bash
-    npm install
-    ```
-
-6. Add, commit and push the changes to your repository
-
-    Again, you may use your IDE for this and use any commit message you prefer.
-
-    ```bash
-    git add .
-    git commit -m "Initial commit for Lab 1."
-    git push
-    ```
+{% include lab-01-copy-react-files.md %}
 
 ## 4. Verify that the build succeeded in GitHub
 
@@ -229,6 +168,5 @@ please let me know).
       start
 - [React Native Introduction](https://reactnative.dev/docs/getting-started)
 - [React Native Core Components and APIs](https://reactnative.dev/docs/components-and-apis)
-
 
 
