@@ -7,10 +7,10 @@ nav_order: 2
 
 # Node.js installation issue
 
-## AppData/Roaming issue
+## AppData\Roaming\npm issue
 
 When you run `npm` or `npx` for the first time, you might get an error that says
-some files in `AppData/Roaming` don't exist. This can be solved by creating an
+some files in `AppData\Roaming` don't exist. This can be solved by creating an
 empty folder called `npm` in the directory that is mentioned in the error
 message.
 
