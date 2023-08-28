@@ -34,7 +34,7 @@ Example replace this URL with the one from your repo (this will not work for
 you):
 
 ```bash
-git clone https://github.com/bsu-cs-jb/test-lab-01-admired-glory.git
+git clone https://github.com/bsu-cs-jb/lab-01-GitHubUser.git
 ```
 
 You can also clone your repository using the git version control integration in
