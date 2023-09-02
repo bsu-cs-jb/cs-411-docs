@@ -9,6 +9,9 @@ nav_order: 2
 
 ## Topics
 
+Here is the project repo that I was working on during class on Wednesday for
+reference: [bsu-cs-jb/week-02-wed-08-30](https://github.com/bsu-cs-jb/week-02-wed-08-30).
+
 ### React (Native) Component architecture
 
 - How to define a functional component
