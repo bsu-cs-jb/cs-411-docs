@@ -81,33 +81,9 @@ part separately.
 - As someone with many roles in my life I want to be able to create several sets
   of timers and use them when cooking, working and studying.
 
-Whatever.
-
-
-
-- As someone cooking dinner I want to be able to time the different parts of my
-  meal and hear an alert sounds when each timer finishes.
-- As someone cooking dinner I want to be able to create several timers with
-  different lengths and to start them independently.
-- As someone cooking dinner I want to be able to create several timers with
-  different lengths and to start them independently.
-- As someone cooking dinner when I need to take something out of the oven
-  temporarily I want to be able to pause one of my timers and start it again
-    later.
-- As someone cooking dinner if I have to change my plans I want to be able to
-  stop a timer and see how much time was remaining when I stopped it.
-- As someone cooking dinner I want to be able to reset a stopped timer to its
-  initial value and then start it again.
-- As someone cooking dinner I want to be able to give each timer a different
-  text label and a color.
-- As someone cooking dinner I want to be able to delete a timer that I no longer
-  need.
-- As someone who cooks the same meal repeatedly I want to be able to create
-  different sets of timers and use them in the future.
-- As someone cooking dinner I do not want my device to go to sleep while viewing
-  the app when timers are running.
-- TBD: should the app allow sleep if no timers are running?
 ## Learning Outcomes
+
+So many it's hard to list them all.
 
 ## Process
 
