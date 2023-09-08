@@ -3,14 +3,25 @@ title: Specification
 layout: default
 parent: Project 1
 nav_order: 1
-published: false
+published: true
 ---
 
 # {{ page.parent }}: {{ page.title }}
 
 ## Goal
 
-{% if jekyll.environment == "dev" %}
+Build an application that allows users to create and track sets of timers to
+help them navigate various areas of life.
+
+Refer to the User Stories below and the [wireframes](wireframes.html) for
+details.
+
+{% if jekyll.environment == "dev" and false %}
+
+## Notes
+
+- [7 Apps/Websites for Multiple Timers](https://www.makeuseof.com/apps-websites-to-set-multiple-timers/)
+- [AdvoLogix Multi Timer](https://help.advologix.com/a/737904-multi-timer)
 
 ## Instructor Notes
 
@@ -31,20 +42,7 @@ VS Code Shortcuts
 
 {% endif %}
 
-## Scenario
-
-You have been asked to create a simple mobile app as part of your application
-process to a software startup. They have seen on your application that you
-graduated with a degree in Computer Science and completes CS 411 Mobile
-Application Development and have asked you to submit a small application that is
-built to follow the specifications in a set of wireframes.
-
-You want to work here... The company has a good reputation... etc.
-
-User stories:
-
-Build a kitchen timer app that allows someone preparing a meal to track each
-part separately.
+### User stories
 
 - As a father I want to use multiple timers when making dinner so that I
   remember when to stop cooking each part of the meal so that I don't overcook
@@ -81,26 +79,31 @@ part separately.
 - As someone with many roles in my life I want to be able to create several sets
   of timers and use them when cooking, working and studying.
 
+### Non-functional requirements
+
+Coming soon...
+
 ## Learning Outcomes
 
 So many it's hard to list them all.
 
 ## Process
 
-3. Create a Component for each screen in the wireframe.
-4. Add the Components to the React Navigation
+1. Create a Component for each screen in the wireframe.
+2. Add the Components to the React Navigation
    [NavigationContainer](https://reactnavigation.org/docs/navigation-container).
-5. Add components that handle user interaction to change screens in the
+3. Add components that handle user interaction to change screens in the
    navigation container.
-5. Use React Core Components to match the layout in the wireframes for each
+4. Use React Core Components to match the layout in the wireframes for each
    screen.
-6. Add state to the components.
-7. Add callbacks to handle user interactions for the components.
-8. Add styling to the components to match the final design views.
-9. Take screenshots of your application and submit them on Canvas along with the
-   link to your GitHub repository.
+5. Add state to the components.
+6. Add callbacks to handle user interactions for the components.
+7. Add styling to the components to match the final design views.
+8. Take screenshots of your application and submit them on Canvas along with the
+   link to your GitHub repository in the comments.
 
 
 ## Rubric
 
+Coming soon...
 

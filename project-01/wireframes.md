@@ -3,7 +3,7 @@ title: Wireframes
 layout: default
 parent: Project 1
 nav_order: 2
-published: false
+published: true
 ---
 
 # {{ page.parent }}: {{ page.title }}
