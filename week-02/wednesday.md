@@ -20,7 +20,3 @@ reference: [bsu-cs-jb/week-02-wed-08-30](https://github.com/bsu-cs-jb/week-02-we
     - dependencies
 - render cycle
 
-## Tasks
-
-- [ ] Add link to React docs
-- [ ] Upload to GitHub and post link
