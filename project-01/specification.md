@@ -14,7 +14,17 @@ Build an application that allows users to create and track sets of timers to
 help them navigate various areas of life.
 
 Refer to the User Stories below and the [wireframes](wireframes.html) for
-details.
+details. You are not required or even encouraged to match the wireframes
+exactly. Grading will be based on fulfillment of the user stories as specified
+in the rubric. I have provided wireframes as a visual reference to the user
+stories but they are not authoritative or normative. Feel free to improvise the
+design and user experience (UX) while followed common design principles for
+mobile applications. We will be covering these in more detail later in the
+course.
+
+Bonus points will be given for unique and creative solutions as long as the
+applications is still easy to use by someone familiar with mobile apps. See
+rubric for details.
 
 {% if jekyll.environment == "dev" and false %}
 
@@ -81,11 +91,33 @@ VS Code Shortcuts
 
 ### Non-functional requirements
 
-Coming soon...
+FYI: This section is not completely finished
+
+- code / build
+    - application builds and runs
+    - proper coding style used (follow style in the labs and lecture repos)
+    - React hooks are used appropriately
+    - Repository is hygienic: does not include extra, unnecessary files such as
+      system files or duplicates of project files
+- performance
+    - application does not have performance issues when many timer groups have
+      been created or when many timers are running simultaneously.
+    - application does not unnecessarily re-render components. E.g. if there are
+      no timers running, the application should not constantly re-render.
+- UI / usability / UX (user experience)
+    - application is usable by someone familiar with modern mobile apps
+    - application does not get into a bad or stuck state when performing basic
+      operations
+    - application does not get into a bad or stuck state when abused
+    - application components are visible on devices that have different bezels
+      and safe areas (e.g. when running on devices with "notches" or rounded
+      bezels the components are still usable)
+
+
 
 ## Learning Outcomes
 
-So many it's hard to list them all.
+Coming soon...
 
 ## Process
 
@@ -106,4 +138,13 @@ So many it's hard to list them all.
 ## Rubric
 
 Coming soon...
+
+Will mimic the rubric for lab 2. The rubric will assess whether your application
+fulfills the user stories and meets the non-functional requirements.
+
+## Submission
+
+TBD. Will most likely follow the pattern of Lab 2: several screenshots and a
+link to the GitHub Repository.
+
 
