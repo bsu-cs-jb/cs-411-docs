@@ -2,7 +2,7 @@
 title: Week 3, Sept 4
 layout: default
 has_children: true
-nav_order: 4
+nav_order: 3
 ---
 
 # {{ page.title }}

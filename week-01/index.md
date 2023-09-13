@@ -2,7 +2,7 @@
 title: Week 1, Aug 21
 layout: default
 has_children: true
-nav_order: 2
+nav_order: 1
 ---
 
 # {{ page.title }}
