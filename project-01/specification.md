@@ -71,17 +71,9 @@ VS Code Shortcuts
     - want to see the actual clock time when each timer will complete
     - want the timer to play a sound when finished that I can hear so that I
       remember to take the garlic bread out of the oven.
-    - want to assign a label, color and/or icon, image or emoji to each timer so
-      that I can easily tell them apart without looking too closely.
-    - do not want my device to go to sleep while the timers are running so that
-      I can see how much time is left for my meal.
 - As a freelancer I:
     - want to be able to pause, restart and stop a timer so that I can take a
       break when a different client calls me.
-    - want to be able to resume a stopped or reset timer if I accidentally
-      pressed the stop/reset button.
-    - want to delete a timer that I no longer need so that my display is not
-      cluttered.
 
 ### Non-functional requirements
 
@@ -117,8 +109,41 @@ Coming soon...
 5. Add state to the components.
 6. Add callbacks to handle user interactions for the components.
 7. Add styling to the components to match the final design views.
-8. Take screenshots of your application and submit them on Canvas along with the
-   link to your GitHub repository in the comments.
+8. Take 2-3 screenshots of your application in different states and submit them
+   on Canvas along with the link to your GitHub repository in the comments.
+
+For Project 1 I have setup three GitHub auto-grading actions. Since these are
+new to the class and new to me I will be lenient on grading them for certain
+edge cases. They will run every time you push to GitHub. My suggestion to you
+(and everyone that I work with) is:
+
+> Push early and push often
+
+There is never any penalty for pushing your code to GitHub early and often. If
+you get sick, stuck, don't have internet or otherwise are unable to push code on
+the deadline, you can still receive credit for the code already on GitHub. Also
+(and this has happened to me) if you end up breaking your project, you can
+revert back to a previously committed version and start again (ask me if you
+don't know how). I can also grade you based on an earlier commit if you have
+pushed it to GitHub and if you communicate with me.
+
+These are the auto-grading commands:
+
+-  `npm run test` - runs a very simple unit test on `App.tsx` to make sure the
+    component will build and mount and has children. This action should succeed.
+-   `npm run lint` - runs `eslint` to check for errors. In my testing this will
+    succeed even if you have some minor problems. `eslint` is not configured to
+    check for style unless I made a mistake.
+-  `npm run typecheck` - this will run `tsc`, the typescript compiler, and output
+    any errors. These errors may be legitimate code errors that cause your
+    application to break or they may be errors with your types. Certain typing
+    errors I will ignore for the purposes of grading. For example, if you cannot
+    find the proper type for some React properties that is OK. For your own
+    components and variables, however, I expect your types to be correctly
+    specified. This is _much less important_ than completing the application
+    functionality and will not be worth many points, so if you have
+    difficulties here **relax**. Feel free to message me or post in our Discussion
+    if you'd like.
 
 
 ## Rubric
