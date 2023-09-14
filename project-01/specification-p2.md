@@ -1,7 +1,7 @@
 ---
 title: Specification
 layout: default
-parent: Part 1
+parent: Part 2
 grand_parent: Project 1
 nav_order: 1
 published: true
@@ -11,10 +11,10 @@ published: true
 
 ## Goal
 
-Build an application that allows users to create and track several timers to
+Build an application that allows users to create and track sets of timers to
 help them navigate various areas of life.
 
-Refer to the User Stories below and the [wireframes](wireframes.html) for
+Refer to the User Stories below and the [wireframes](wireframes-p2.html) for
 details. You are not required or even encouraged to match the wireframes
 exactly. Grading will be based on fulfillment of the user stories as specified
 in the rubric. I have provided wireframes as a visual reference to the user
@@ -64,6 +64,9 @@ VS Code Shortcuts
   simulate the allotted time for each section on the MCAT including breaks so
   that I can simulate the action test-taking experience while taking a practice
   exam.
+- As a student if I get interrupted while studying I want to be able to pause my
+  timers and have them retain the remaining time so that I can resume studying
+  later.
 - As a graphic design freelancer I want to create timers for myself to limit the
   amount of time I spend on each part of a client's project so that I complete
   all of my clients' projects by their due dates.
@@ -75,6 +78,8 @@ VS Code Shortcuts
       that I can easily tell them apart without looking too closely.
     - do not want my device to go to sleep while the timers are running so that
       I can see how much time is left for my meal.
+- As a busy parent I want to be able to save a set of timers with their
+  configuration so that I can use them again the next time I cook the same meal.
 - As a freelancer I:
     - want to be able to pause, restart and stop a timer so that I can take a
       break when a different client calls me.
@@ -82,6 +87,8 @@ VS Code Shortcuts
       pressed the stop/reset button.
     - want to delete a timer that I no longer need so that my display is not
       cluttered.
+- As someone with many roles in my life I want to be able to create several sets
+  of timers and use them when cooking, working and studying.
 
 ### Non-functional requirements
 
@@ -93,8 +100,16 @@ FYI: This section is not completely finished
     - React hooks are used appropriately
     - Repository is hygienic: does not include extra, unnecessary files such as
       system files or duplicates of project files
+- performance
+    - application does not have performance issues when many timer groups have
+      been created or when many timers are running simultaneously.
+    - application does not unnecessarily re-render components. E.g. if there are
+      no timers running, the application should not constantly re-render.
 - UI / usability / UX (user experience)
     - application is usable by someone familiar with modern mobile apps
+    - application does not get into a bad or stuck state when performing basic
+      operations
+    - application does not get into a bad or stuck state when abused
     - application components are visible on devices that have different bezels
       and safe areas (e.g. when running on devices with "notches" or rounded
       bezels the components are still usable)
