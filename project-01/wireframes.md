@@ -16,10 +16,13 @@ You are not required to follow the design or layout in these wireframes.
 
 ## Running Timers
 
+This wireframe has not yet been updated. It should include the controls to edit
+the name and duration of a timer on the same screen and should not have the back
+arrow at the upper left. Customizing the color of the timer is also not required
+for part 1. See the 
+[requirements in the specification section](specification.html#requirements)
+for full details.
+
 ![running timers](Running Timer.png)
-
-## Editing a Timer
-
-![edit timers](Edit Timer.png)
 
 
