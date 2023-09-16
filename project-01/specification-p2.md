@@ -7,7 +7,15 @@ nav_order: 1
 published: true
 ---
 
-# {{ page.parent }}: {{ page.title }}
+# Project 1, {{ page.parent }}: {{ page.title }}
+
+## Due Date: Sunday Oct 1, midnight
+
+- Part 1 is due Sunday Sept 17 at midnight.
+- I will work to review Part 1 in the following week
+- We will continue to study component lifecycle and React Native Navigation to
+  prepare for Part 2
+- Part 2 will be due 2 weeks later, Sunday Oct 1 at midnight
 
 ## Goal
 
