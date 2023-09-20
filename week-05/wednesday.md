@@ -7,3 +7,4 @@ nav_order: 2
 
 # {{ page.title }}
 
+[Lecture repo Wednesday 9/20](https://github.com/bsu-cs-jb/lecture-09-20-wed)
