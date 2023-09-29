@@ -93,8 +93,9 @@ based on the scheduled events.
 **Requirements**
 
 - [ ] The `TagFilterView` shows the list of tags fetched from the backend in `App`
-- [ ] When the user taps on a tag, `TagFilterList` calls a callback in `App` and
-  _does not change any data_.
+- [ ] When the user taps on a tag, `TagFilterList` should not change its own
+  copy of the properties but should send a copy to the callback with the new
+  value.
 - [ ] `App` provides the `tagFilterList` state variable to `TagFilterView` as a
   property
 - [ ] `App` handles the callback that you added to `TagFilterView` and updates
