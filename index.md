@@ -12,6 +12,7 @@ nav_order: 0
 {% assign lab-02 = site.pages | where: "path", "lab-02/index.md" | first %}
 {% assign lab-03 = site.pages | where: "path", "lab-03/index.md" | first %}
 {% assign lab-04 = site.pages | where: "path", "lab-04/index.md" | first %}
+{% assign lab-05 = site.pages | where: "path", "lab-05/index.md" | first %}
 
 - [Lab 1: {{ lab-01.asgn_name }}]({{ site.baseurl }}{{ lab-01.url }})
 - [Lab 2: {{ lab-02.asgn_name }}]({{ site.baseurl }}{{ lab-02.url }})
