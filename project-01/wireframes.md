@@ -1,8 +1,7 @@
 ---
 title: Wireframes
 layout: default
-parent: Part 1
-grand_parent: Project 1
+parent: Project 1
 nav_order: 2
 published: true
 ---

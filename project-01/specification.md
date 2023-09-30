@@ -1,21 +1,19 @@
 ---
 title: Specification
 layout: default
-parent: Part 1
-grand_parent: Project 1
+parent: Project 1
 nav_order: 1
 published: true
 ---
 
-# Project 1, {{ page.parent }}: {{ page.title }}
+# Project 1, {{ page.title }}
 
 ## Due Date: Sunday Sept 17, midnight
 
 - Part 1 is due Sunday Sept 17 at midnight.
 - I will work to review Part 1 in the following week
 - We will continue to study component lifecycle and React Native Navigation to
-  prepare for Part 2
-- Part 2 will be due 2 weeks later, Sunday Oct 1 at midnight
+  prepare for Project 2
 
 ## Goal
 

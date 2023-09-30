@@ -1,8 +1,7 @@
 ---
 title: Specification
 layout: default
-parent: Part 2
-grand_parent: Project 1
+parent: Project 2
 nav_order: 1
 published: true
 ---
@@ -22,7 +21,7 @@ published: true
 Build an application that allows users to create and track sets of timers to
 help them navigate various areas of life.
 
-Refer to the User Stories below and the [wireframes](wireframes-p2.html) for
+Refer to the User Stories below and the [wireframes](wireframes.html) for
 details. You are not required or even encouraged to match the wireframes
 exactly. Grading will be based on fulfillment of the user stories as specified
 in the rubric. I have provided wireframes as a visual reference to the user
