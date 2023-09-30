@@ -122,6 +122,21 @@ FYI: This section is not completely finished
       bezels the components are still usable)
 
 
+### TBD Requirements that may be in part 2 but may not
+
+These items may not be required for part 2. I need to think about it. They will
+be worth bonus points if they are not required.
+
+- deleting a timer
+- deleting timer sets
+- unique color/icon/image for each timer
+- showing the scheduled ending date and time for the timer
+- show "last used" or "last edited" for timer sets
+- saving lists and sets of timers between app invocations
+    - this is not required
+- timers continue to run and will show alerts and play sound even when
+  off-screen (e.g. when viewing the "Timer Sets" screen).
+
 
 ## Learning Outcomes
 

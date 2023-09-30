@@ -10,8 +10,7 @@ published: true
 
 ## Due Date: Sunday Sept 17, midnight
 
-- Part 1 is due Sunday Sept 17 at midnight.
-- I will work to review Part 1 in the following week
+- Project 1 is due Sunday Sept 17 at midnight.
 - We will continue to study component lifecycle and React Native Navigation to
   prepare for Project 2
 
@@ -20,8 +19,9 @@ published: true
 Build an application that allows users to create and track several timers to
 help them navigate various areas of life.
 
-Part 1 of this project is focused on the main multi-timer screen. Other aspects
-are being moved into Part 2 which will not be due for at least two weeks.
+Project 1 of this project is focused on the main multi-timer screen. Other aspects
+are being moved into Project 2 which currently has not been assigned or
+scheduled.
 
 ### Requirements
 
@@ -74,10 +74,10 @@ are being moved into Part 2 which will not be due for at least two weeks.
       arrow head) or a Rewind icon.
     - optional can reset a running timer (is this good usability?)
 
-### Not required (but will be in part 2)
+### Not required (but will be in project 2)
 
-These items will be required in part 2. If you have them in part 1 then I will
-review them and give feedback to help you make them fully functional for part 2.
+These items will be required in project 2. If you have them in project 1 then I will
+review them and give feedback to help you make them fully functional for project 2.
 
 - multiple screens; React Native Navigation
 - perfectly accurate timing
@@ -85,29 +85,14 @@ review them and give feedback to help you make them fully functional for part 2.
 - adding timer sets
 - a separate screen or modal for editing the timer
 
-If you have these items in part 1 but they do not work correctly, you _will not_
+If you have these items in project 1 but they do not work correctly, you _will not_
 lose any points. If you have these items complete and with full functionality
 you will enjoy the following benefits:
 
 1. bonus points for project 1
-2. confidence that your app will pass part 2 requirements
+2. confidence that your app will pass project 2 requirements
 3. pride
-4. a lot less work to do for part 2
-
-### TBD Requirements that may be in part 2 but may not
-
-These items may not be required for part 2. I need to think about it. They will
-be worth bonus points if they are not required.
-
-- deleting a timer
-- deleting timer sets
-- unique color/icon/image for each timer
-- showing the scheduled ending date and time for the timer
-- show "last used" or "last edited" for timer sets
-- saving lists and sets of timers between app invocations
-    - this is not required
-- timers continue to run and will show alerts and play sound even when
-  off-screen (e.g. when viewing the "Timer Sets" screen).
+4. a lot less work to do for project 2
 
 ## Suggested design
 
@@ -234,7 +219,7 @@ The `name` and `duration` properties are only updated when the timer is edited.
     - not all apps will have timers, but almost all apps have lists of things
       and a way to edit those lists
     - NOTE: the timing functionality does not have to be exactly accurate for
-      part 1
+      project 1
 
 Refer to the User Stories below for reference and the [wireframes](wireframes.html) for
 details. You are not required or even encouraged to match the wireframes
@@ -278,7 +263,7 @@ VS Code Shortcuts
 
 ### User stories
 
-These are descriptions and not requirements for part 1.
+These are descriptions and not requirements for project 1.
 
 - As a father I want to use multiple timers when making dinner so that I
   remember when to stop cooking each part of the meal so that I don't overcook
@@ -363,7 +348,7 @@ These are the auto-grading commands:
 This rubric is a _guide_ to how I will assess your submissions. It is a set of
 expectations roughly grouped into levels that demonstrate your mastery of
 learning outcomes for this project. Each item _does not_ have equal weight. For
-Part 1 I have provided a very detailed set of [requirements](#requirements)
+Project 1 I have provided a very detailed set of [requirements](#requirements)
 above which describe in detail the expected behavior.
 
 ### Submission Requirements
