@@ -8,6 +8,11 @@ published: true
 
 # {{ page.parent }}: {{ page.title }}
 
+**NOTE**: There is a bug in the fake backend that it recreates the fetch methods
+every render. This does not cause a problem unless you change the two
+`useEffect` methods in `App.tsx`, however. If you'd like to patch the issue see
+[Lab 3 Errata](errata.html).
+
 ## Goal
 
 Develop an application that follows React data management and component
