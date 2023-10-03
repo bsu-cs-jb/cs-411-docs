@@ -11,10 +11,9 @@ published: true
 ## Due Date: Sunday Oct 1, midnight
 
 - Part 1 is due Sunday Sept 17 at midnight.
-- I will work to review Part 1 in the following week
 - We will continue to study component lifecycle and React Native Navigation to
-  prepare for Part 2
-- Part 2 will be due 2 weeks later, Sunday Oct 1 at midnight
+  prepare for Project 2
+- Project 2 does not currently have a scheduled due date
 
 ## Goal
 
