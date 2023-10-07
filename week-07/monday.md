@@ -7,3 +7,6 @@ nav_order: 1
 
 # {{ page.title }}
 
+We covered data management and binding in class. There was no code written as
+part of the lecture.
+
