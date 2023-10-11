@@ -9,12 +9,11 @@ published: true
 
 # Project 2 {{ page.asgn_name }}
 
-## Due Date: Unscheduled
+## Due Date: Sunday, 10/22 midnight
 
-Project 2 will be the continuation of Project 1 (previously called "part 2"). It
-will be roughly the same requirements but the due date is undetermined as of
-now.
+Project 2 is the continuation of Project 1 (previously called "part 2").
 
 - Project 1 was due Sunday Sept 17 at midnight.
+- Project 2 is due Sunday Oct 22 at midnight.
 
 

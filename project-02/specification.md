@@ -8,12 +8,12 @@ published: true
 
 # Project 1, {{ page.parent }}: {{ page.title }}
 
-## Due Date: Sunday Oct 1, midnight
+## Due Date: Sunday Oct 22, midnight
 
 - Part 1 is due Sunday Sept 17 at midnight.
 - We will continue to study component lifecycle and React Native Navigation to
   prepare for Project 2
-- Project 2 does not currently have a scheduled due date
+- Project 2 is due Sunday Oct 22 at midnight.
 
 ## Goal
 
@@ -194,12 +194,8 @@ These are the auto-grading commands:
 
 Coming soon...
 
-Will mimic the rubric for lab 2. The rubric will assess whether your application
-fulfills the user stories and meets the non-functional requirements.
-
 ## Submission
 
-TBD. Will most likely follow the pattern of Lab 2: several screenshots and a
-link to the GitHub Repository.
-
+Submit screenshots of each screen in various states along with a link to your
+GitHub repository in a comment.
 
