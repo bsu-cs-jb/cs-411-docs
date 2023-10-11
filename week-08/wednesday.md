@@ -9,3 +9,4 @@ nav_order: 2
 
 ## useContext
 
+[Lecture repo Wednesday 10/11](https://github.com/bsu-cs-jb/lecture-10-11-wed)
