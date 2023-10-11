@@ -3,11 +3,11 @@ title: Project 2
 layout: default
 nav_order: 52
 has_children: true
-asgn_name: Multi-Timer Part 2
+asgn_name: Multi-Timer w/ Timer Sets
 published: true
 ---
 
-# Project 2 {{ page.asgn_name }}
+# {{ page.title }}: {{ page.asgn_name }}
 
 ## Due Date: Sunday, 10/22 midnight
 

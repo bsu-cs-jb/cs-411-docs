@@ -6,7 +6,7 @@ nav_order: 1
 published: true
 ---
 
-# Project 1, {{ page.parent }}: {{ page.title }}
+# {{ page.parent }}: {{ page.title }}
 
 ## Due Date: Sunday Oct 22, midnight
 
