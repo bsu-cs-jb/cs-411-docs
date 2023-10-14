@@ -6,6 +6,14 @@ nav_order: 0
 
 ## Welcome to CS 411
 
+### Helpful repos
+
+The [Lecture repo for Wed 9/13](https://github.com/bsu-cs-jb/lecture-09-13-wed)
+has an implementation of a React Navigation Stack Navigator that implements
+types for each screen including `navigation` and `route` prop typing.
+
+
+
 ### Labs
 
 {% assign lab-01 = site.pages | where: "path", "lab-01/index.md" | first %}
