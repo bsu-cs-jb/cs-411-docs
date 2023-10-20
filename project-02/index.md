@@ -9,11 +9,11 @@ published: true
 
 # {{ page.title }}: {{ page.asgn_name }}
 
-## Due Date: Sunday, 10/22 midnight
+## Due Date: Sunday, 10/29 midnight
 
 Project 2 is the continuation of Project 1 (previously called "part 2").
 
 - Project 1 was due Sunday Sept 17 at midnight.
-- Project 2 is due Sunday Oct 22 at midnight.
+- Project 2 is due Sunday Oct 29 at midnight.
 
 

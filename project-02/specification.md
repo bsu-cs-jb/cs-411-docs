@@ -8,12 +8,12 @@ published: true
 
 # {{ page.parent }}: {{ page.title }}
 
-## Due Date: Sunday Oct 22, midnight
+## Due Date: Sunday Oct 29, midnight
 
 - Part 1 is due Sunday Sept 17 at midnight.
 - We will continue to study component lifecycle and React Native Navigation to
   prepare for Project 2
-- Project 2 is due Sunday Oct 22 at midnight.
+- Project 2 is due Sunday Oct 29 at midnight.
 
 ## Goal
 
