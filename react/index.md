@@ -19,13 +19,13 @@ Pages covering details of various React Native features and components.
 `<TextInput>` instead of `<textarea>`
 - [📘 Sharing state with Context](https://react.dev/learn/passing-data-deeply-with-context)
 
+## Core Components
+
+- [React Modal](modal.html)
+
 ## React Navigation
 
-- [📘 React Navigation](https://reactnavigation.org/docs/getting-started/)
-- [👨‍🏫  Lecture repo for Wed 9/13](https://github.com/bsu-cs-jb/lecture-09-13-wed)
-    This repo has an implementation of a React Navigation Stack Navigator that
-    implements types for each screen including `navigation` and `route` prop typing.
-- other
+- SEE [React Navigation](navigation.html)
 
 Legend:
 
