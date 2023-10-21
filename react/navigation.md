@@ -1,7 +1,7 @@
 ---
 title: Navigation
 layout: default
-parent: React
+parent: React Native
 nav_order: 3
 ---
 
