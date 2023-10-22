@@ -82,6 +82,10 @@ not have a basic, working timer, the app is useless.
 | Sets and Timers | Multiple timer sets with multiple timers on each behave properly                        |
 | Code Review     | Well-written code following React principles                                            |
 
+Refer to the [user acceptance testing script](testing-script.html) to understand
+in detail how I will test your application and my expectations for
+functionality.
+
 {% if jekyll.environment == "dev" %}
 
 | Category                   | Value |
