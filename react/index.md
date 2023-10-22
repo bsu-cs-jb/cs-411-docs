@@ -27,6 +27,21 @@ Pages covering details of various React Native features and components.
 
 - SEE [React Navigation](navigation.html)
 
+## React State Management
+
+- [React State Management Intermediate Course]()
+    - this "course" is 2h 46m but deals with many very valuable topics that are
+      covered in the first 90m.
+    - Here are the time codes for each topic and you can skip to them in YouTube
+    - (0:03:27) useState
+    - (0:18:37) useReducer
+    - (0:32:29) useMemo & useCallback
+    - (0:49:43) useEffect
+    - (1:05:59) useRef
+    - (1:13:53) Context and Custom Hooks
+    - at 1:41 he begins discussing other topics and frameworks that are not
+      relevant for the course.
+
 Legend:
 
 - 📘 - an official documentation page

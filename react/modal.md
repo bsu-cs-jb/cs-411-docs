@@ -2,7 +2,7 @@
 title: Modal
 layout: default
 parent: React Native
-nav_order: 2
+nav_order: 10
 ---
 # {{ page.parent }}: {{ page.title }}
 
