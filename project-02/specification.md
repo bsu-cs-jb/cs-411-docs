@@ -20,18 +20,119 @@ published: true
 Build an application that allows users to create and track sets of timers to
 help them navigate various areas of life.
 
-Refer to the [User Stories](user-stories.html) and the [wireframes](wireframes.html) for
-details. You are not required or even encouraged to match the wireframes
-exactly. Grading will be based on fulfillment of the user stories as specified
-in the rubric. I have provided wireframes as a visual reference to the user
-stories but they are not authoritative or normative. Feel free to improvise the
-design and user experience (UX) while followed common design principles for
-mobile applications. We will be covering these in more detail later in the
-course.
+Refer to the [User Stories](user-stories.html) and the
+[wireframes](wireframes.html) for details. You are not required or even
+encouraged to match the wireframes exactly. I have shared the [user acceptance
+testing script](testing-script.html) that I will be using to validate your
+application.
+
+Grading will be based on fulfillment of the user stories as specified in the
+rubric. I have provided wireframes as a visual reference to the user stories but
+they are not authoritative or normative. Feel free to improvise the design and
+user experience (UX) while followed common design principles for mobile
+applications. We will be covering these in more detail later in the course.
 
 Bonus points will be given for unique and creative solutions as long as the
 applications is still easy to use by someone familiar with mobile apps, assuming
 the core functionality is correctly implemented. See rubric for details.
+
+## Requirements
+
+Project 2 is worth 50 points in total.
+
+{% if jekyll.environment == "dev" %}
+
+### Maximum grades
+
+The typical system of grading with a rubric to earn each point leads to a
+situation where you could achieve an 80-90% grade without even completing the
+baseline functionality of Project 2. For this reason, if you have omitted
+significant pieces of required functionality, you will have a maximum achievable
+grade.
+
+These are phrased in the negative sense of "If you don't do X, your maximum
+grade is Y." A failed requirement means either that the functionality was not
+implemented at all or it is so broken as to be unusable.
+
+The point here is that we have already had several assignments that required a
+functioning timer: Lab 2 and Project 1. Implementing a single, functional timer
+should be a problem that you have solved. For Project 2, a working timer is
+assumed and should not be something that earns you points on this project.
+However, if I omit "working timer functionality" from the rubric, then you may
+believe that you can earn 40 / 50 points without having a single working timer.
+A single working timer is still worth 10 points on this project, but if you do
+not have a basic, working timer, the app is useless.
+
+| Requirement                                                           | Maximum points |
+| -----------                                                           | ----           |
+| Timer sets                                                            | 40             |
+| Multiple timers                                                       | 30             |
+| Functional timer: set duration, start, stop and reset (can run again) | 30             |
+
+{% endif %}
+
+### Major functionality
+
+| Category        | Requirement                                                                             |
+| --------        | -----------                                                                             |
+| Timer Sets      | Add multiple sets of timers and name them, add timers to the sets                       |
+| Single Timer    | A single timer can be created, given name and duration, and operates according to spec. |
+| Edit a Timer    | User can edit name and duration of timer                                                |
+| Multiple Timers | Multiple timers can be added to a set and operate correctly independently               |
+| Sets and Timers | Multiple timer sets with multiple timers on each behave properly                        |
+| Code Review     | Well-written code following React principles                                            |
+
+{% if jekyll.environment == "dev" %}
+
+| Category                   | Value |
+| --------                   | ----- |
+| Timer Sets                 | 10    |
+| Single Timer               | 10    |
+| Edit a timer               | 5     |
+| Multiple Timers            | 10    |
+| Set and timer interactions | 10??  |
+
+
+### Timer Sets
+
+| Requirement                                       | Value |
+| -----------                                       | ----  |
+| Add a timer set                                   | 1     |
+| Name the timer set                                | 2     |
+| View the timer set                                | 1     |
+| Add timers to the timer set                       | 2     |
+| Timers still exist on the set after changing sets | 2     |
+| TBD                                               | 2     |
+| **Total**                                         | **8** |
+
+### Single Timer
+
+| Requirement                              | Value |
+| -----------                              | ----  |
+| Add a timer with name and duration       | 1     |
+| Start timer                              | 2     |
+| Pause and restart timer                  | 1     |
+| Reset timer (to duration, **not** 0)     | 2     |
+| Timer counts down and shows visual alert | 2     |
+| Timer can be used repeatedly             | 2     |
+| **Total**                                | **8** |
+
+### Edit a Timer
+
+| Requirement                    | Value |
+| -----------                    | ----  |
+| Change timer name and duration | 1     |
+| **Total**                      | **8** |
+
+### Multiple Timers
+
+| Requirement                            | Value |
+| -----------                            | ----  |
+| Can add multiple timers                | 1     |
+| Timers operate independently correctly | 1     |
+| **Total**                              | **8** |
+
+{% endif %}
 
 {% if jekyll.environment == "dev" and false %}
 
@@ -44,8 +145,6 @@ the core functionality is correctly implemented. See rubric for details.
 
 
 ### Non-functional requirements
-
-FYI: This section is not completely finished
 
 - code / build
     - application builds and runs
@@ -86,16 +185,13 @@ business stakeholders) before adding "frivolous" extras.
 - deleting timer sets
 - unique color/icon/image for each timer
 - showing the scheduled ending date and time for the timer
+- show the number of timers for each timer set
 - show "last used" or "last edited" for timer sets
 - saving lists and sets of timers between app invocations
     - this is not required
 - timers continue to run and will show alerts and play sound even when
   off-screen (e.g. when viewing the "Timer Sets" screen).
 
-
-## Learning Outcomes
-
-Coming soon...
 
 ## Process
 
