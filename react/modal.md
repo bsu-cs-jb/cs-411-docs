@@ -6,6 +6,8 @@ nav_order: 10
 ---
 # {{ page.parent }}: {{ page.title }}
 
+- [React Native Modal docs](https://reactnative.dev/docs/modal)
+- [Lecture 10/18 Repo](https://github.com/bsu-cs-jb/lecture-10-18-wed)
 - [Modal Demo Repo](https://github.com/bsu-cs-jb/demo-modal)
 
 ## Modal demo, maybe
