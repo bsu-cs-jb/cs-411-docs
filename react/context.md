@@ -138,8 +138,8 @@ add controls that call `setName` or `setAge` that will immediately re-render the
 
 ### Basic Context Demo
 
-[basic-context GitHub repo](https://github.com/bsu-cs-jb/demo-context/blob/basic-context/ContextDemo.tsx):
-[Basic Context Demo]({{ site.baseurl}}/demos/basic-context/)
+- [basic-context GitHub repo](https://github.com/bsu-cs-jb/demo-context/blob/basic-context/ContextDemo.tsx)
+- [Basic Context Demo]({{ site.baseurl}}/demos/basic-context/)
 
 <iframe width=460 height=910 src="{{ site.baseurl}}/demos/basic-context/">
 </iframe>
