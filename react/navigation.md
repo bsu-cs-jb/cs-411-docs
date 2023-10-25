@@ -47,6 +47,7 @@ npx expo install react-native-screens react-native-safe-area-context
 Wrap your entire application in a single `<NavigationContainer>`:
 
 ```react
+{% raw %}
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 
@@ -57,12 +58,13 @@ export default function App() {
     </NavigationContainer>
   );
 }
+{% endraw %}
 ```
 
 ### Add Stack Navigator
 
 This step is pushed to GitHub as the 
-[`basic-nav`](https://github.com/bsu-cs-jb/demo-simple-nav/tree/basic-nav)
+[`basic-nav-fix`](https://github.com/bsu-cs-jb/demo-simple-nav/tree/basic-nav-fix)
 tag on the `demo-simple-nav` repo.
 
 
@@ -79,8 +81,9 @@ use types properly, you must define the route parameters that each Screen in
 your Stack expects. To get started, we won't need any route parameters so you
 can specify them as `undefined`:
 
-[`NavDemo.tsx`](https://github.com/bsu-cs-jb/demo-simple-nav/blob/basic-nav/NavDemo.tsx)
+[`NavDemo.tsx`](https://github.com/bsu-cs-jb/demo-simple-nav/blob/basic-nav-fix/NavDemo.tsx)
 ```react
+{% raw %}
 import "react-native-gesture-handler";
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
@@ -105,10 +108,12 @@ export default function NavDemo() {
     </NavigationContainer>
   );
 }
+{% endraw %}
 ```
 
-[`MainView.tsx`](https://github.com/bsu-cs-jb/demo-simple-nav/blob/basic-nav/MainView.tsx)
+[`MainView.tsx`](https://github.com/bsu-cs-jb/demo-simple-nav/blob/basic-nav-fix/MainView.tsx)
 ```react
+{% raw %}
 import { StyleSheet, View } from "react-native";
 import { BigButton, SubtitleText } from "./Shared";
 import { StackScreenProps } from "@react-navigation/stack";
@@ -138,7 +143,10 @@ const styles = StyleSheet.create({
     gap: 8,
   },
 });
+{% endraw %}
 ```
+
+[Basic Navigation Demo]({{ site.baseurl}}/demos/basic-nav/)
 
 <iframe width=460 height=910 src="{{ site.baseurl}}/demos/basic-nav/">
 </iframe>

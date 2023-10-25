@@ -10,7 +10,7 @@ nav_order: 10
 - [Lecture 10/18 Repo](https://github.com/bsu-cs-jb/lecture-10-18-wed)
 - [Modal Demo Repo](https://github.com/bsu-cs-jb/demo-modal)
 
-## Modal demo, maybe
+## Modal demo
 
 [Modal Demo Project]({{ site.baseurl}}/demos/modal/)
 
