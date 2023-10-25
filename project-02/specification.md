@@ -82,6 +82,25 @@ not have a basic, working timer, the app is useless.
 | Sets and Timers | Multiple timer sets with multiple timers on each behave properly                        |
 | Code Review     | Well-written code following React principles                                            |
 
+In addition these are requirements for the code:
+
+- properly make use of a generated `id` for Component keys in lists such as
+  `ScrollView` and `FlatList` (use
+[nanoid](https://github.com/ai/nanoid#react-native), uuid, or
+[genid](https://github.com/bsu-cs-jb/demo-context/blob/main/utils.ts))
+- the Timer View implementation must be a separate component. It cannot be
+  defined inline inside of the parent component that contains the list of
+  timers. 
+- components should respond appropriately (by re-rendering) when their
+  properties are updated, particularly `name` and `duration`.
+
+
+Things that are ok (no points deducted):
+
+- timers can stop running when the user navigates back to the Timer Sets screen
+  (but the timers should all keep their name and duration)
+
+
 Refer to the [user acceptance testing script](testing-script.html) to understand
 in detail how I will test your application and my expectations for
 functionality.
@@ -185,6 +204,7 @@ for deleting a timer or setting a color. This is a key point in being a software
 developer: we must complete the required functionality for our customers (and
 business stakeholders) before adding "frivolous" extras.
 
+- making the timer exactly accurate
 - deleting a timer
 - deleting timer sets
 - unique color/icon/image for each timer
