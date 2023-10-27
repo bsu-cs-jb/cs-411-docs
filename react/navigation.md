@@ -65,7 +65,7 @@ export default function App() {
 
 This step is pushed to GitHub as the 
 [`basic-nav-fix`](https://github.com/bsu-cs-jb/demo-simple-nav/tree/basic-nav-fix)
-tag on the `demo-simple-nav` repo.
+branch on the `demo-simple-nav` repo.
 
 
 Install the required libraries

@@ -9,10 +9,6 @@ nav_order: 40
 
 - [📘 React useContext docs](https://react.dev/reference/react/useContext)
 - [🍿 Learn useContext in 13 minutes](https://youtu.be/5LrDIWkK_Bc?t=60)
-- [👨‍🏫  Lecture repo for Wed 9/13](https://github.com/bsu-cs-jb/lecture-09-13-wed)
-    This repo has an implementation of a React Navigation Stack Navigator that
-    implements types for each screen including `navigation` and `route` prop typing.
-- other
 - [React Context Demo](https://github.com/bsu-cs-jb/demo-context)
 
 
@@ -142,4 +138,17 @@ add controls that call `setName` or `setAge` that will immediately re-render the
 - [Basic Context Demo]({{ site.baseurl}}/demos/basic-context/)
 
 <iframe width=460 height=910 src="{{ site.baseurl}}/demos/basic-context/">
+</iframe>
+
+
+### List Context code
+
+In class on Wednesday we built a demo using a list of objects as part of
+context. I pushed this up to the `list-context` branch of the `demo-context`
+repo:
+
+- [list-context GitHub repo](https://github.com/bsu-cs-jb/demo-context/blob/list-context/)
+- [List Context Demo]({{ site.baseurl}}/demos/list-context/)
+
+<iframe width=460 height=910 src="{{ site.baseurl}}/demos/list-context/">
 </iframe>
