@@ -1,18 +1,22 @@
 ---
 title: Home
 layout: home
-nav_order: -1
+nav_order: 0
 ---
 
-## Welcome to CS 411
+# Welcome to CS 411
 
-### Helpful repos
+## Useless links
+
+- [Schoolhouse Rock: How a Bill Becomes a Law](https://www.youtube.com/watch?v=Otbml6WIQPo)
+
+## Helpful repos
 
 The [Lecture repo for Wed 9/13](https://github.com/bsu-cs-jb/lecture-09-13-wed)
 has an implementation of a React Navigation Stack Navigator that implements
 types for each screen including `navigation` and `route` prop typing.
 
-### Labs
+## Labs
 
 {% assign lab-01 = site.pages | where: "path", "lab-01/index.md" | first %}
 {% assign lab-02 = site.pages | where: "path", "lab-02/index.md" | first %}
@@ -29,7 +33,7 @@ types for each screen including `navigation` and `route` prop typing.
 - [Lab 4: {{ lab-04.asgn_name }}]({{ site.baseurl }}{{ lab-04.url }})
 {% endif %}
 
-### Projects
+## Projects
 
 {% assign project-01 = site.pages | where: "path", "project-01/index.md" | first %}
 {% assign project-02 = site.pages | where: "path", "project-02/index.md" | first %}
@@ -43,7 +47,7 @@ No projects yet!
 - [Project 2: {{ project-02.asgn_name }}]({{ site.baseurl }}{{ project-02.url }})
 {% endif %}
 
-### Class Resources
+## Class Resources
 
 {% include setup-links.md %}
 
