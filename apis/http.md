@@ -70,6 +70,13 @@ Content-type: text/html
 </html>
 ```
 
+## Query (URL) Parameters
+
+Query parameters can be added to the URL to specify additional data for the
+server to process as part of the request. Query parameters are often used to
+supply metadata or control information about how the request is processed such
+as specifying search terms.
+
 ## HTTP Response Status Codes
 
 The status code in an HTTP response indicates what result, if any, the request
@@ -133,6 +140,67 @@ new post. Similarly, deleting a resource cannot be repeated since the resource
 no longer exists to be deleted. A `PUT` or `PATCH` must be treated as
 non-idempotent although it is possible they will not actually change the
 resource on the server.
+
+## HTTP Headers
+
+HTTP Headers are key-value pairs that add metadata to the request or response.
+Headers are an important part of both the request and response. Headers convey
+information such as the modified date, content type and length, the client and
+server software, and authentication information.
+
+[HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+
+### Request Headers
+
+Important [request headers](https://developer.mozilla.org/en-US/docs/Glossary/Request_header)
+
+| Header          | Meaning                                                             |
+| ------          | -------                                                             |
+| Host            | Domain name of the host                                             |
+| User-Agent      | String representation of the client software                        |
+| Accept          | list of formats (MIME types) the client will accept in the response |
+| Accept-Language | list of languages the client will accept                            |
+| Accept-Encoding | list of encodings and compression techniques the client accepts     |
+| Referer         | URL of the referring website                                        |
+| Authorization   | Authorization credentials                                           |
+| Cookie          | Cookies sent from the server previously with Set-Cookie             |
+
+### Response Headers
+
+Important [response headers](https://developer.mozilla.org/en-US/docs/Glossary/Response_header)
+
+| Header           | Meaning                                                                 |
+| ------           | -------                                                                 |
+| Content-Type     | MIME type of the response                                               |
+| Content-Encoding | Response encoding and compression                                       |
+| Date             | Date the response was created                                           |
+| Last-Modified    | Date the resource was last modified                                     |
+| Etag             | A unique identifier for this version of the resource (used for caching) |
+| Server           | String representation of server software                                |
+| Set-Cookie       | Set a cookie on the client                                              |
+
+
+### MIME Types
+
+- [MIME Types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+- [Common MIME Types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)
+
+```
+type/subtype
+```
+
+Important MIME Types
+
+| MIME Type           | Meaning                             |
+| ---------           | ---                                 |
+| text/plain          | Plain Text                          |
+| text/html           | HTML file                           |
+| text/css            | CSS file                            |
+| text/javascript     | JavaScript file                     |
+| image/*             | Image data                          |
+| application/json    | JSON Text                           |
+| multipart/form-data | HTML Form data sent in POST request |
+
 
 ## Legend:
 
