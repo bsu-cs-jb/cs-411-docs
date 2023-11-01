@@ -1,8 +1,8 @@
 ---
-title: Week 10, Oct 23
+title: Week 11, Oct 30
 layout: default
 has_children: true
-nav_order: 20
+nav_order: 21
 ---
 
 # {{ page.title }}
