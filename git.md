@@ -6,6 +6,10 @@ nav_order: 130
 
 # {{ page.title }}
 
+If you're interested in learning more about `git` or want to brush up on the
+basics, your classmate Melody created this fantastic set of git tutorials. There
+are four in total and I've linked the playlist and the individual videos below.
+
 ## Git video series
 
 [CyberWater2 Git Tutorials Playlist](https://www.youtube.com/playlist?list=PLgGVQrJZIBqbjZrjclTVAHSzwDWFpiHK5)
