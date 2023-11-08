@@ -31,7 +31,7 @@ asynchronous operations in JavaScript are:
 
 How do Promises work?
 
-1. When a Promise object is created, it is in the `pending` state whhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promisesich means
+1. When a Promise object is created, it is in the `pending` state which means
    the promise has not resolved to a value.
 2. A Promise _will not_ resolve inside of the function it was created in
 3. At a later point in time, the promise will settle. A Promise may 
