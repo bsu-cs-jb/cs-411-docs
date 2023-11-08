@@ -2,7 +2,7 @@
 title: Fetch
 layout: default
 parent: APIs
-nav_order: 3
+nav_order: 4
 ---
 
 # {{ page.parent }}: {{ page.title }}
@@ -66,6 +66,25 @@ Output:
   completed: true
 }
 ```
+
+## Fetch API Promise rejection
+
+Why does the Fetch API Promise reject?
+
+- Invalid URL
+- Connection failure
+    - Connection Timeout
+    - Cannot resolve host name
+    - Connection rejected
+
+What _does not_ cause the Promise to reject?
+
+- HTTP Response code error
+
+What does this mean? It means that you need to check `response.status` to
+determine if the request actually succeeded. See
+[HTTP Response Status Codes](http.html#http-response-status-codes)
+for a discussion of HTTP Response Status codes.
 
 ## JSON Placeholder
 

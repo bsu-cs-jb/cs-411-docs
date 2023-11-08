@@ -2,7 +2,7 @@
 title: GraphQL
 layout: default
 parent: APIs
-nav_order: 4
+nav_order: 10
 ---
 
 # {{ page.parent }}: {{ page.title }}

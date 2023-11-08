@@ -29,7 +29,7 @@ types for each screen including `navigation` and `route` prop typing.
 {%- if lab-03.published %}
 - [Lab 3: {{ lab-03.asgn_name }}]({{ site.baseurl }}{{ lab-03.url }})
 {%- endif -%}
-{%- if lab-04.published %}
+{%- if lab-04.published or jekyll.environment == "dev" %}
 - [Lab 4: {{ lab-04.asgn_name }}]({{ site.baseurl }}{{ lab-04.url }})
 {% endif %}
 
