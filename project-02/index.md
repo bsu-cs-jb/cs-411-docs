@@ -4,6 +4,7 @@ layout: default
 nav_order: 52
 has_children: true
 asgn_name: Multi-Timer w/ Timer Sets
+published: true
 ---
 
 # {{ page.title }}: {{ page.asgn_name }}
