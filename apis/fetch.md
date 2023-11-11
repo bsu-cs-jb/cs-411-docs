@@ -26,13 +26,25 @@ the first callback is handled by the second `then()` callback.
 
 ```typescript
 fetch('https://jsonplaceholder.typicode.com/todos/1')
-    .then(response => response.json())
-    .then(json => console.log(json))
+    .then((response) => {
+        console.log(`Received response with status ${response.status}.`);
+        if (response.status >= 200 && response.status < 300) {
+            return response.json();
+        } else {
+            console.log("An error occurred.");
+            return "ERROR";
+        }
+    })
+    .then((json) => {
+        console.log(json);
+        return json;
+    })
 ```
 
 Output:
 
 ```
+Received response with status 200.
 { userId: 1, id: 1, title: 'delectus aut autem', completed: false }
 ```
 
@@ -53,17 +65,31 @@ fetch('https://jsonplaceholder.typicode.com/todos', {
         "Content-Type": "application/json",
     },
 })
-    .then(response => response.json())
-    .then(json => console.log(json))
+    .then((response) => {
+        console.log(`Received response with status ${response.status}.`);
+        if (response.status >= 200 && response.status < 300) {
+            return response.json();
+        } else {
+            console.log("An error occurred.");
+            return "ERROR";
+        }
+    })
+    .then((json) => {
+        console.log("Parsed JSON as:");
+        console.log(json);
+        return json;
+    })
 ```
 
 Output:
 ```
+Received response with status 201.
+Parsed JSON as:
 {
-  id: 201,
   userId: 'e3se9k',
   title: 'Post Fetch example on website.',
-  completed: true
+  completed: true,
+  id: 201
 }
 ```
 

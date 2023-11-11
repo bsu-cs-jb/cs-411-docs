@@ -30,7 +30,9 @@ See the website for details about the API (and examples of using Fetch):
 | `/users`    | 10 users     | `/users/:id/todos`<br/> `/users/:id/posts`<br/> `/users/:id/albums` |
 
 
-User:
+## Examples of each resource
+
+### User
 
 ```json
 {
@@ -58,7 +60,7 @@ User:
 }
 ```
 
-Post:
+### Post
 
 ```json
 {
@@ -69,7 +71,7 @@ Post:
 }
 ```
 
-Comment:
+### Comment
 
 ```json
 {
@@ -83,7 +85,7 @@ accusantium"
 }
 ```
 
-Album:
+### Album
 
 ```json
 {
@@ -93,7 +95,7 @@ Album:
 }
 ```
 
-Photo:
+### Photo
 
 ```json
 {
@@ -106,7 +108,7 @@ Photo:
 ```
 
 
-Todo:
+### Todo
 
 ```json
 {

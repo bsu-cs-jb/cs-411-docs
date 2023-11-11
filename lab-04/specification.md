@@ -3,7 +3,7 @@ title: Specification
 layout: default
 parent: Lab 4
 nav_order: 1
-published: false
+published: true
 ---
 
 # {{ page.parent }}: {{ page.title }}
@@ -36,14 +36,9 @@ We will be using a website with a freely available JSON REST API.
 
 See [JSON Placeholder](json-placeholder.html) for details.
 
-See the website for details about the API (and examples of using Fetch):
-
-- [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)
-- [https://jsonplaceholder.typicode.com/guide/](https://jsonplaceholder.typicode.com/guide/)
-
 ## Part 1: Write REST code
 
-### Definitions
+### Types
 
 ```typescript
 interface Todo {
@@ -61,20 +56,23 @@ interface User {
 }
 ```
 
-### `getTodo`
+### Fetch a Todo: `getTodo`
 
 Implement a method `getTodo` that accepts a parameter `id` of type `number`,
 fetches the todo with that id, parses the JSON response, and returns the object.
 If an error occurs in the request, the method should return undefined.
 Therefore, this method should return the Promise of a `Todo` or `undefined`.
 
+Type signature:
+
+```typescript
+export function getTodo(id: number): Promise<Todo | undefined> {
+}
+```
+
 ## Part 2: Making REST Calls
 
-For part 1, you should 
-
-Questions:
-
-- How many TODOs does Patricia Lebsack have defined?
+For part 2, answer the quiz.
 
 ## Resources
 
