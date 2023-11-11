@@ -9,6 +9,18 @@ nav_order: 2
 
 ## Generating JSON
 
+- [📘 JSON.stringify() MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+
+### Syntax
+
+```javascript
+JSON.stringify(value)
+JSON.stringify(value, replacer)
+JSON.stringify(value, replacer, space)
+```
+
+### Examples
+
 ```javascript
 let value;
 value = "hello";
@@ -65,6 +77,16 @@ console.log(JSON.stringify(value, undefined, 2));
 
 ## Parsing JSON
 
+- [📘 JSON.parse() MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+
+### Syntax
+
+```javascript
+JSON.parse(text)
+JSON.parse(text, reviver)
+```
+
+### Examples
 ```javascript
 let value;
 value = "hello";
@@ -112,6 +134,4 @@ JSON.parse(value);
   ref: null
 }
 */
-
-
 ```
