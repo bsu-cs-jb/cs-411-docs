@@ -20,6 +20,16 @@ interact with its REST API. You will submit this code in GitHub for grading. In
 part 2, you will use the code from part 1 to make several API calls and complete
 a Canvas quiz with your results.
 
+## Helpful reference pages
+
+I have put time into developing these pages to cover all the content that you
+need. Please refer to them first if you have any questions about the lab.
+
+- [REST APIs]({{ site.baseurl }}/apis/rest.html)
+- [Promise API]({{ site.baseurl }}/apis/promise.html)
+- [Fetch API]({{ site.baseurl }}/apis/fetch.html)
+- [JSON handling]({{ site.baseurl }}/javascript/json.html)
+
 ## JSONPlaceholder
 
 We will be using a website with a freely available JSON REST API.
