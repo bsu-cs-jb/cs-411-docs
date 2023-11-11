@@ -2,7 +2,7 @@
 title: Demos
 layout: default
 has_children: false
-nav_order: 5
+nav_order: 8
 ---
 
 # {{ page.title }}
