@@ -2,7 +2,7 @@
 title: JSON
 layout: default
 parent: JavaScript
-nav_order: 2
+nav_order: 8
 ---
 
 # {{ page.parent }}: {{ page.title }}

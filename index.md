@@ -49,7 +49,14 @@ No projects yet!
 
 ## Class Resources
 
-{% include setup-links.md %}
+{% include parent-links.md parent="JavaScript" %}
+
+{% include parent-links.md parent="APIs" %}
+
+{% include parent-links.md parent="React Native" %}
+
+{% include parent-links.md parent="Setup" %}
+
 
 [Links to online resources]({% link online-resources.md %})
 
