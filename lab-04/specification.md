@@ -87,6 +87,9 @@ export function getTodo(id: number): Promise<Todo | undefined> {
 
 ### Delete a Todo: `deleteTodo`
 
+*NOTE*: There was a bug in the original delete test. See [Lab 4
+Errata](errata.html) for the fix.
+
 ```typescript
 function deleteTodo(id: number): Promise<true | undefined> {
   // TODO: Replace the method body with code that deletes
