@@ -6,10 +6,6 @@ nav_order: 0
 
 # Welcome to CS 411
 
-## Useless links
-
-- [Schoolhouse Rock: How a Bill Becomes a Law](https://www.youtube.com/watch?v=Otbml6WIQPo)
-
 ## Helpful repos
 
 The [Lecture repo for Wed 9/13](https://github.com/bsu-cs-jb/lecture-09-13-wed)
@@ -37,6 +33,7 @@ types for each screen including `navigation` and `route` prop typing.
 
 {% assign project-01 = site.pages | where: "path", "project-01/index.md" | first %}
 {% assign project-02 = site.pages | where: "path", "project-02/index.md" | first %}
+{% assign project-03 = site.pages | where: "path", "project-03/index.md" | first %}
 
 {%- if project-01.published %}
 - [Project 1: {{ project-01.asgn_name }}]({{ site.baseurl }}{{ project-01.url }})
@@ -45,18 +42,17 @@ No projects yet!
 {%- endif -%}
 {%- if project-02.published %}
 - [Project 2: {{ project-02.asgn_name }}]({{ site.baseurl }}{{ project-02.url }})
+{%- endif -%}
+{%- if project-03.published or jekyll.environment == "dev" %}
+- [Project 3: {{ project-03.asgn_name }}]({{ site.baseurl }}{{ project-03.url }})
 {% endif %}
 
 ## Class Resources
 
 {% include parent-links.md parent="JavaScript" %}
-
 {% include parent-links.md parent="APIs" %}
-
 {% include parent-links.md parent="React Native" %}
-
 {% include parent-links.md parent="Setup" %}
-
 
 [Links to online resources]({% link online-resources.md %})
 

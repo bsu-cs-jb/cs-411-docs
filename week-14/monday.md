@@ -7,3 +7,6 @@ nav_order: 1
 
 # {{ page.title }}
 
+**ATTENTION:** only 7 classes left in the semester after today.
+
+
