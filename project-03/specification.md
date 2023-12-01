@@ -3,12 +3,12 @@ title: Specification
 layout: default
 parent: Project 3
 nav_order: 1
-published: false
+published: true
 ---
 
 # {{ page.parent }}: {{ page.title }}
 
-## Due Date: The Future
+## Due Date: Wednesday, Dec 6
 
 ## Context
 
@@ -32,22 +32,36 @@ First-time users join the decision with an invitation code.
 
 ## Requirements
 
-Requirements.
-
-### User Stories
-
-
-### Major functionality
-
-| Category | Requirement |
-| -------- | ----------- |
-| A        | A           |
-| B        | B           |
-| C        | C           |
-| D        | D           |
+| Category     | Points | Item                                                                                                                                                                                                                                                                         |
+| ------       | ----:  | --                                                                                                                                                                                                                                                                           |
+| Usability    | 1      | Text is rendered in a font large enough to read on a moderately sized mobile phone.                                                                                                                                                                                          |
+| Usability    | 1      | All interactive elements have a reaction when the user taps on them (use Button, Touchable, or properly implemented Pressable)                                                                                                                                               |
+| Usability    | 1      | Interactive elements that are disabled have a different appearance and do not react when the user taps on them.                                                                                                                                                              |
+| Usability    | 1      | Popups or dialogs are rendered properly.                                                                                                                                                                                                                                     |
+| Usability    | 1      | UI elements remain visible even if the suggestion or friends name is long.                                                                                                                                                                                                   |
+| Accepting    | 1      | On app launch the user has not yet accepted the invitation and the app displays the user as “not accepted”.                                                                                                                                                                  |
+| Accepting    | 1      | The user can see the list of suggestions and invitations before they have accepted the invitation but they cannot vote, add suggestions, update their attendance, or invite other users until they accept the invitation                                                     |
+| Accepting    | 1      | User can accept the invitation. After accepting, the user can vote on suggestions, add new suggestions, update their attendance, and invite other users.                                                                                                                     |
+| Accepting    | 1      | Once the user has accepted the invitation, they can update whether they are planning to attend the event or not. Options are: Yes, No, Undecided.                                                                                                                            |
+| Suggestions  | 1      | Displays all suggestions in a scrolling view (ScrollView or FlatList)                                                                                                                                                                                                        |
+| Suggestions  | 1      | Allows a user to vote any number of suggestions                                                                                                                                                                                                                              |
+| Suggestions  | 1      | Allows a user to remove their vote from a suggestion                                                                                                                                                                                                                         |
+| Suggestions  | 1      | Clearly displays which suggestions the user has voted for                                                                                                                                                                                                                    |
+| Suggestions  | 1      | Displays the total vote count for each suggestion                                                                                                                                                                                                                            |
+| Suggestions  | 1      | Has a button to let a user add a new suggestion which prompts the user for their suggestion.                                                                                                                                                                                 |
+| Suggestions  | 1      | Calls the addSuggestion method from AppState to add the new suggestion and displays the updated list of suggestions when it is updated from the backend.                                                                                                                     |
+| Invitations  | 1      | Displays all invited users in a scrolling view (ScrollView or FlatList)                                                                                                                                                                                                      |
+| Invitations  | 1      | Displays invited users who have not yet accepted the invitation with a different (e.g. grayed out) appearance. These users have not indicated if they are attending or not and their attending status should either not be shown at all or shown distinct from other status. |
+| Invitations  | 1      | For users that have accepted the invitation, the app displays whether they are planning to attend the event or not or if they are undecided.                                                                                                                                 |
+| Invitations  | 1      | Has a button to let a user invite a friend which prompts the user for their friends name.                                                                                                                                                                                    |
+| Invitations  | 1      | Calls the inviteUser method and the display updates after the new user is added.                                                                                                                                                                                             |
+| Live Updates | 2      | When users change their votes, the updates are reflected in the app.                                                                                                                                                                                                         |
+| Live Updates | 1      | When the application fetches new suggestions they are properly displayed                                                                                                                                                                                                     |
+| Live Updates | 1      | When the application fetches new users they are properly displayed                                                                                                                                                                                                           |
+| Code         | 5      | Code Review                                                                                                                                                                                                                                                                  |
 
 ## Submission
 
-Submit screenshots of each screen in various states along with a link to your
-GitHub repository in a comment.
+Submit at least 3 screenshots showing the app in different states with different
+data and a link to your GitHub repository in a comment.
 

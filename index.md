@@ -22,11 +22,10 @@ types for each screen including `navigation` and `route` prop typing.
 
 - [Lab 1: {{ lab-01.asgn_name }}]({{ site.baseurl }}{{ lab-01.url }})
 - [Lab 2: {{ lab-02.asgn_name }}]({{ site.baseurl }}{{ lab-02.url }})
-{%- if lab-03.published %}
 - [Lab 3: {{ lab-03.asgn_name }}]({{ site.baseurl }}{{ lab-03.url }})
-{%- endif -%}
-{%- if lab-04.published or jekyll.environment == "dev" %}
 - [Lab 4: {{ lab-04.asgn_name }}]({{ site.baseurl }}{{ lab-04.url }})
+{%- if lab-05.published %}
+- [Lab 5: {{ lab-05.asgn_name }}]({{ site.baseurl }}{{ lab-05.url }})
 {% endif %}
 
 ## Projects
@@ -34,6 +33,7 @@ types for each screen including `navigation` and `route` prop typing.
 {% assign project-01 = site.pages | where: "path", "project-01/index.md" | first %}
 {% assign project-02 = site.pages | where: "path", "project-02/index.md" | first %}
 {% assign project-03 = site.pages | where: "path", "project-03/index.md" | first %}
+{% assign project-04 = site.pages | where: "path", "project-04/index.md" | first %}
 
 {%- if project-01.published %}
 - [Project 1: {{ project-01.asgn_name }}]({{ site.baseurl }}{{ project-01.url }})
@@ -45,6 +45,9 @@ No projects yet!
 {%- endif -%}
 {%- if project-03.published or jekyll.environment == "dev" %}
 - [Project 3: {{ project-03.asgn_name }}]({{ site.baseurl }}{{ project-03.url }})
+{%- endif -%}
+{%- if project-04.published or jekyll.environment == "dev" %}
+- [Project 4: {{ project-04.asgn_name }}]({{ site.baseurl }}{{ project-03.url }})
 {% endif %}
 
 ## Class Resources
