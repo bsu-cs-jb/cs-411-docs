@@ -27,6 +27,7 @@ Collections:
 
 | Path              | Meaning               |
 | ------            | -------               |
+| `/self`           | Fetch yourself        |
 | `/users`          | All users             |
 | `/users/{userId}` | User with id `userId` |
 

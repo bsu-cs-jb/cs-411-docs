@@ -34,7 +34,28 @@ OAuth2 has several key concepts that you should understand:
 - Scope
   * the valid scopes for the token
 
+First pass at an example auth. I haven't tested this yet:
 
+```javascript
+const clientId = "your id";
+const clientSecret = "your secret";
+fetch("https://example.com/auth", {
+  method: "POST",
+  body: "grant_type=client_credentials",
+  headers: new Headers({
+    "Authorization": `Basic ${base64.encode(`${clientId}:${clientSecret}`)}`,
+    "Content-Type": "application/x-www-form-urlencoded",
+  }),
+}).then((response) => {
+  if (!response.ok) throw new Error(response.status);
+  return response.json();
+}).then((auth) => {
+  // Save this in state
+  console.log("Access Token:", auth.access_token);
+  // setAccessToken(auth.access_token);
+});
+
+```
 
 
 ```typescript
