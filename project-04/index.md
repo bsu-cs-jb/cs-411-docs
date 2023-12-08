@@ -4,7 +4,7 @@ layout: default
 nav_order: 54
 has_children: true
 asgn_name: Indecisive MVP
-published: false
+published: true
 ---
 
 # {{ page.title }}: {{ page.asgn_name }}
