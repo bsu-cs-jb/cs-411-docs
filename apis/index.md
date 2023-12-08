@@ -13,6 +13,22 @@ nav_order: 3
 - [HTTP](http.html)
 - [REST](rest.html)
 - [GraphQL](graphql.html)
+- [OAuth2](oauth2.html)
+
+## JavaScript APIs
+
+- [Promise](promise.html)
+- [Fetch](promise.html)
+
+## API Clients
+
+- [Postman](https://www.postman.com/)
+  * extremely commonly used and popular but less modern
+- [Insomnia](https://insomnia.rest/)
+  * modern, supports REST and GraphQL
+- [Bruno](https://www.usebruno.com/)
+  * open source, a little clunky but useful
+- VSCode plugins
 
 Legend:
 
