@@ -1,5 +1,5 @@
 ---
-title: Project 4
+title: Project 3b
 layout: default
 nav_order: 54
 has_children: true
@@ -9,8 +9,8 @@ published: true
 
 # {{ page.title }}: {{ page.asgn_name }}
 
-## Due Date: Wednesday, Dec 13
+## Due Date: Thursday, Dec 14
 
-Project 4: Indecisive MVP
+Project 3b: Indecisive MVP
 
 

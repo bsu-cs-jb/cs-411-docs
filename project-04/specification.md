@@ -1,14 +1,14 @@
 ---
 title: Specification
 layout: default
-parent: Project 4
+parent: Project 3b
 nav_order: 1
 published: true
 ---
 
 # {{ page.parent }}: {{ page.title }}
 
-## Due Date: Wednesday, Dec 13
+## Due Date: Thursday, Dec 14
 
 ## Goal
 
@@ -24,7 +24,7 @@ to be able to interact with other users.
 - userid
 - token
 
-### API for P4
+### API for P3b
 
 | Method | Path                                        | Example Body                         | Result                                 |
 | ------ | -------                                     | ----                                 | ----                                   |

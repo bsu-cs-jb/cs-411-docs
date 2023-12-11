@@ -60,6 +60,23 @@ First-time users join the decision with an invitation code.
 | Live Updates | 1      | When the application fetches new users they are properly displayed                                                                                                                                                                                                           |
 | Code         | 5      | Code Review                                                                                                                                                                                                                                                                  |
 
+## Requirements updates and clarifications
+
+- the user begins with the session not accepted and will need to accept the
+  invitation to make any changes, but *should* be able to view the list of
+  suggestions and other invited users
+- accepting an invitation should be clicking a button
+- a button for un-accepting an invitation is nice to have but not strictly
+  necessary
+- there is no way to "reject" an invitation
+- when the user adds a new suggestion, they should be prompted for any text to
+  type in for the suggestion.
+  * the app should not submit a random suggestion (that was done for demo
+    purposes)
+- when the user invites a new person, they should be prompted with a text box
+  for the user's name (the prototype will generate a userId for the new user).
+  * the app should not submit a random user name
+
 ## Submission
 
 Submit at least 3 screenshots showing the app in different states with different
