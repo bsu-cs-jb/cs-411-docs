@@ -33,7 +33,7 @@ types for each screen including `navigation` and `route` prop typing.
 {% assign project-01 = site.pages | where: "path", "project-01/index.md" | first %}
 {% assign project-02 = site.pages | where: "path", "project-02/index.md" | first %}
 {% assign project-03 = site.pages | where: "path", "project-03/index.md" | first %}
-{% assign project-04 = site.pages | where: "path", "project-04/index.md" | first %}
+{% assign project-03b = site.pages | where: "path", "project-03b/index.md" | first %}
 
 {%- if project-01.published %}
 - [Project 1: {{ project-01.asgn_name }}]({{ site.baseurl }}{{ project-01.url }})
@@ -46,8 +46,8 @@ No projects yet!
 {%- if project-03.published or jekyll.environment == "dev" %}
 - [Project 3: {{ project-03.asgn_name }}]({{ site.baseurl }}{{ project-03.url }})
 {%- endif -%}
-{%- if project-04.published or jekyll.environment == "dev" %}
-- [Project 4: {{ project-04.asgn_name }}]({{ site.baseurl }}{{ project-03.url }})
+{%- if project-03b.published or jekyll.environment == "dev" %}
+- [Project 3b: {{ project-03b.asgn_name }}]({{ site.baseurl }}{{ project-03b.url }})
 {% endif %}
 
 ## Class Resources
