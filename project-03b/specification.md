@@ -47,16 +47,17 @@ export function base64(input: string): string {
 
 Token
 
-- token endpoint: `/token`
+- token endpoint: `http://cs411.duckdns.org/token`
 - method: `POST`
 - body: `grant_type=client_credentials`
 - headers
   * "Content-Type": `application/x-www-form-urlencoded`
-  * "Authorization": `Basic ${base64(`${clientId}:${clientSecret}`)}`
+  * "Authorization": `Basic ${base64(CLIENT_ID + ":" + CLIENT_SECRET)}`
 
-| Method | Path                                        | Example Body                         | Result                                 |
-| ------ | -------                                     | ----                                 | ----                                   |
-| GET    | `/self`                                     | _empty_                              | returns the User for this clientId     |
+Temporary credentials:
+
+- CLIENT_ID: `tamatoa`
+- CLIENT_SECRET: `secret`
 
 ### API for P3b
 
