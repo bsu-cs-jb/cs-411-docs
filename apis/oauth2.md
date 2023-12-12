@@ -36,49 +36,65 @@ OAuth2 has several key concepts that you should understand:
 
 First pass at an example auth. I haven't tested this yet:
 
-```javascript
+```typescript
+import { Buffer } from "buffer";
+
 const clientId = "your id";
 const clientSecret = "your secret";
-fetch("https://example.com/auth", {
+
+export function base64(input: string): string {
+  return Buffer.from(input, "utf8").toString("base64");
+}
+
+fetch("http://cs411.duckdns.org/token", {
   method: "POST",
   body: "grant_type=client_credentials",
   headers: new Headers({
-    "Authorization": `Basic ${base64.encode(`${clientId}:${clientSecret}`)}`,
+    "Authorization": `Basic ${base64(`${clientId}:${clientSecret}`)}`,
     "Content-Type": "application/x-www-form-urlencoded",
   }),
 }).then((response) => {
-  if (!response.ok) throw new Error(response.status);
-  return response.json();
+  if (response.ok) {
+    return response.json();
+  } else {
+    response.text().then((body) => {
+      console.error(`Error response status: ${response.status}`);
+      console.error(`Response body:\n`, JSON.stringify(body, undefined, 2));
+    });
+  }
 }).then((auth) => {
-  // Save this in state
-  console.log("Access Token:", auth.access_token);
-  // setAccessToken(auth.access_token);
+  if (auth) {
+    // Save this in state
+    console.log("Auth response:", JSON.stringify(auth, undefined, 2));
+    console.log("Access Token:", auth.access_token);
+    // setAccessToken(auth.access_token);
+  }
 });
-
 ```
 
 
 ```typescript
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-    .then((response) => {
-        console.log(`Received response with status ${response.status}.`);
-        if (response.status >= 200 && response.status < 300) {
-            return response.json();
-        } else {
-            console.log("An error occurred.");
-            return "ERROR";
-        }
-    })
-    .then((json) => {
-        console.log(json);
-        return json;
-    })
-```
+const token = "TOKEN";
 
-Output:
-
-```
-Received response with status 200.
-{ userId: 1, id: 1, title: 'delectus aut autem', completed: false }
+fetch("http://cs411.duckdns.org/indecisive/self", {
+  method: "GET",
+  headers: new Headers({
+    "Authorization": `Bearer ${token}`,
+  }),
+})
+.then((response) => {
+  console.log(`Received response with status ${response.status}.`);
+  if (response.ok) {
+    return response.json();
+  } else {
+    console.log("An error occurred.");
+  }
+})
+.then((self) => {
+  if (self) {
+    console.log("Self:", JSON.stringify(self, undefined, 2));
+    return self;
+  }
+})
 ```
 

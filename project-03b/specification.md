@@ -18,13 +18,52 @@ to be able to interact with other users.
 
 ## API Specification
 
+Server:
+
+- server: `cs411.duckdns.org`
+- protocol: `http`
+- `/token` is at the root, everything else within `/indecisive`
+
+Examples URLs
+
+| Name            | URL                                                                |
+| ----            | ---                                                                |
+| token           | `http://cs411.duckdns.org/token`                                   |
+| self            | `http://cs411.duckdns.org/indecisive/self`                         |
+| current session | `http://cs411.duckdns.org/indecisive/current-session`              |
+| session invite  | `http://cs411.duckdns.org/indecisive/sessions/<session-id>/invite` |
+
 ### Authentication
 
-- clientId, clientSecret
-- userid
-- token
+Supply the client id and client secret using HTTP Basic Authorization. Supply
+the authorization as `${clientId}:${clientSecret}` then encode with base64.
+
+```typescript
+import { Buffer } from "buffer";
+export function base64(input: string): string {
+  return Buffer.from(input, "utf8").toString("base64");
+}
+```
+
+Token
+
+- token endpoint: `/token`
+- method: `POST`
+- body: `grant_type=client_credentials`
+- headers
+  * "Content-Type": `application/x-www-form-urlencoded`
+  * "Authorization": `Basic ${base64(`${clientId}:${clientSecret}`)}`
+
+| Method | Path                                        | Example Body                         | Result                                 |
+| ------ | -------                                     | ----                                 | ----                                   |
+| GET    | `/self`                                     | _empty_                              | returns the User for this clientId     |
 
 ### API for P3b
+
+- all endpoints need `/indecisive` as a prefix
+- URL: `http://cs411.duckdns.org/`
+
+
 
 | Method | Path                                        | Example Body                         | Result                                 |
 | ------ | -------                                     | ----                                 | ----                                   |
