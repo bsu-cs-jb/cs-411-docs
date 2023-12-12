@@ -3,7 +3,6 @@ title: Specification
 layout: default
 parent: Project 3
 nav_order: 1
-published: true
 ---
 
 # {{ page.parent }}: {{ page.title }}

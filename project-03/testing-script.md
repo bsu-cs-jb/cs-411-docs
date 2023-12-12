@@ -3,9 +3,7 @@ title: Testing Script
 layout: default
 parent: Project 3
 nav_order: 4
-published: true
 ---
-
 
 # {{ page.parent }}: {{ page.title }}
 

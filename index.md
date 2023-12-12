@@ -35,18 +35,18 @@ types for each screen including `navigation` and `route` prop typing.
 {% assign project-03 = site.pages | where: "path", "project-03/index.md" | first %}
 {% assign project-03b = site.pages | where: "path", "project-03b/index.md" | first %}
 
-{%- if project-01.published %}
+{%- if project-01.published != false %}
 - [Project 1: {{ project-01.asgn_name }}]({{ site.baseurl }}{{ project-01.url }})
 {%- else -%}
 No projects yet!
 {%- endif -%}
-{%- if project-02.published %}
+{%- if project-02.published != false %}
 - [Project 2: {{ project-02.asgn_name }}]({{ site.baseurl }}{{ project-02.url }})
 {%- endif -%}
-{%- if project-03.published or jekyll.environment == "dev" %}
+{%- if project-03.published != false or jekyll.environment == "dev" %}
 - [Project 3: {{ project-03.asgn_name }}]({{ site.baseurl }}{{ project-03.url }})
 {%- endif -%}
-{%- if project-03b.published or jekyll.environment == "dev" %}
+{%- if project-03b.published != false or jekyll.environment == "dev" %}
 - [Project 3b: {{ project-03b.asgn_name }}]({{ site.baseurl }}{{ project-03b.url }})
 {% endif %}
 

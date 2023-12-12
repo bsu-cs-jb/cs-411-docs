@@ -8,6 +8,12 @@ published: false
 
 # {{ page.parent }}: {{ page.title }}
 
+{% if page.published == false %}
+<span style="color: red; font-size: 3em;">
+**UNPUBLISHED**
+</span>
+{% endif %}
+
 ## Requirements
 
 See the [specification](specification.html) for an overview of the app and
