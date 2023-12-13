@@ -73,10 +73,6 @@ Token
   * "Content-Type": `application/x-www-form-urlencoded`
   * "Authorization": `Basic ${base64(CLIENT_ID + ":" + CLIENT_SECRET)}`
 
-Temporary credentials:
-
-- CLIENT_ID: `tamatoa`
-- CLIENT_SECRET: `secret`
 
 ### API for P3b
 
