@@ -90,9 +90,9 @@ Temporary credentials:
 | GET    | `/self`                                     | _empty_                              | returns the User for this clientId     |
 | GET    | `/current-session`                          | _empty_                              | returns the current active session     |
 | POST   | `/sessions/{sessionId}/invite`              | `{ userId: "User id" }`              | invites the `userId` to this session   |
-| POST   | `/sessions/{sessionId}/respond`             | `{ accept: true, attending: "yes" }` | updates your response to an invitation |
+| POST   | `/sessions/{sessionId}/respond`             | `{ accepted: true, attending: "yes" }` | updates your response to an invitation |
 | POST   | `/sessions/{sessionId}/suggest`             | `{ name: "Bowling" }`                | adds a new suggestion                  |
-| PUT    | `/sessions/{sessionId}/vote/{suggestionId}` | `{ vote: "up" }`                     | vote on a suggestion                   |
+| POST   | `/sessions/{sessionId}/vote/{suggestionId}` | `{ vote: "up" }`                     | vote on a suggestion                   |
 
 ### API Details
 
