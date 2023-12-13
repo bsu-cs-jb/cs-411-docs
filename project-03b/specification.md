@@ -12,7 +12,7 @@ published: true
 
 ## Goal
 
-Add REST API calls to
+Add Fetch REST API calls to
 [Project 3: Indecisive MVP]({{ site.baseurl}}/project-03/specification.html)
 to be able to interact with other users.
 
@@ -37,6 +37,8 @@ Examples URLs
 
 Supply the client id and client secret using HTTP Basic Authorization. Supply
 the authorization as `${clientId}:${clientSecret}` then encode with base64.
+
+See the [OAuth2](oauth2.html) page for more details.
 
 ```typescript
 import { Buffer } from "buffer";

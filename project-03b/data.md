@@ -17,6 +17,8 @@ This explains the app data created on `http://cs411.duckdns.org`.
     according to Canvas. This way you can invite each other to a session.
   * your name is the same as the id (not lowercase) and you can update this by
     PUTting or PATCHing your user. See below.
+  * I sent everyone their client secret in a Canvas message. Please start using
+      that instead of the test accounts.
 - Fake users
   * I created 99 fake users who you can invite to your sessions to experiment
     with the app named `test-000` to `test-098`.
@@ -25,13 +27,6 @@ This explains the app data created on `http://cs411.duckdns.org`.
 
 ## Sessions
 
-There is one session everyone is invited to with the `id` `cs411-final`.
-
-
-## Working with Users
-
-
-## Working with Sessions
-
+There is one session everyone is invited to with the id `cs411-final`.
 
 
