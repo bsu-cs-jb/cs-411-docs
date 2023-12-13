@@ -28,6 +28,7 @@ this as the easiest solution.
 - See the [Demos]({{ site.baseurl}}/demos/) page for the
   [Fetch API Auth]({{ site.baseurl}}/demos/fetch-auth/) demo built on the
   [lecture-12-11-mon repo](https://github.com/bsu-cs-jb/lecture-12-11-mon).
+- NOTE: The fetch API demo won't work in the browser due to CORS issues.
 - I sent everyone their client id and secret in a Canvas message. Those
     credentials should work in this Demo app if you paste them in and hit Fetch
     Token.

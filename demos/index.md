@@ -13,6 +13,7 @@ React Native demos
 
 - [lecture-12-11-mon GitHub repo](https://github.com/bsu-cs-jb/lecture-12-11-mon)
 - [Fetch API Auth]({{ site.baseurl}}/demos/fetch-auth/)
+- NOTE: The fetch API demo won't work in the browser due to CORS issues.
 
 ## React Navigation Demos
 
