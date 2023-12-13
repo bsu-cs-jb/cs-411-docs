@@ -9,6 +9,11 @@ nav_order: 8
 
 React Native demos
 
+## Project 3b Fetch API Demo
+
+- [lecture-12-11-mon GitHub repo](https://github.com/bsu-cs-jb/lecture-12-11-mon)
+- [Fetch API Auth]({{ site.baseurl}}/demos/fetch-auth/)
+
 ## React Navigation Demos
 
 - [basic-nav GitHub repo branch](https://github.com/bsu-cs-jb/demo-simple-nav/tree/basic-nav-fix)
