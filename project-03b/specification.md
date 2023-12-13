@@ -20,6 +20,18 @@ For this additional to Project 3 you **can now** change the
 `/provided/AppContext.tsx` file to implement your `fetch` calls. I recommend
 this as the easiest solution.
 
+## References
+
+
+- The [OAuth2]({{ site.baseurl}}/apis/oauth2.html) page has all the details for
+  making the `fetch` calls.
+- See the [Demos]({{ site.baseurl}}/demos/) page for the
+  [Fetch API Auth]({{ site.baseurl}}/demos/fetch-auth/) demo built on the
+  [lecture-12-11-mon repo](https://github.com/bsu-cs-jb/lecture-12-11-mon).
+- I sent everyone their client id and secret in a Canvas message. Those
+    credentials should work in this Demo app if you paste them in and hit Fetch
+    Token.
+
 ## API Specification
 
 Server:
