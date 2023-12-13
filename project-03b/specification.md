@@ -16,6 +16,10 @@ Add Fetch REST API calls to
 [Project 3: Indecisive MVP]({{ site.baseurl}}/project-03/specification.html)
 to be able to interact with other users.
 
+For this additional to Project 3 you **can now** change the
+`/provided/AppContext.tsx` file to implement your `fetch` calls. I recommend
+this as the easiest solution.
+
 ## API Specification
 
 Server:
@@ -130,6 +134,7 @@ Session methods
 
 ## Submission
 
-Submit at least 3 screenshots showing the app in different states with different
-data and a link to your GitHub repository in a comment.
+Submit at least 2 screenshots showing the app logged in using your credentials
+and showing the current session that you have been assigned in different states
+with different data and a link to your GitHub repository in a comment.
 
