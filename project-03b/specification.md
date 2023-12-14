@@ -16,9 +16,18 @@ Add Fetch REST API calls to
 [Project 3: Indecisive MVP]({{ site.baseurl}}/project-03/specification.html)
 to be able to interact with other users.
 
+## Important Notes
+
 For this additional to Project 3 you **can now** change the
 `/provided/AppContext.tsx` file to implement your `fetch` calls. I recommend
-this as the easiest solution.
+this as the easiest solution. One important note is that the current methods in
+`AppContextProvider` are wrapped in
+[`useCallback`](https://react.dev/reference/react/useCallback) and have a list
+of their dependencies - the same as `useEffect`. You must update these
+dependencies to add one for the `token` which you will need to store as a state
+variable inside `AppContextProvider`. Alternatively, you can completely remove
+the calls to `useCallback`. This should not cause any problems with your app
+although it might cause some additional re-rendering.
 
 ## References
 
