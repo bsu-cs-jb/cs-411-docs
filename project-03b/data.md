@@ -25,6 +25,29 @@ This explains the app data created on `http://cs411.duckdns.org`.
   * at this point, these users do not actively respond to invitations or vote on
     suggestions
 
+Other fake users that I created by request:
+
+
+
+- id: `goku`  
+  name: Goku
+- id: `tom`  
+  name: Tom
+- id: `cleveland`  
+  name: Cleveland
+- id: `carlton`  
+  name: Carlton
+- id: `rick`  
+  name: Rick
+- id: `morty`  
+  name: Morty
+- id: `my-dog`  
+  name: My dog
+- id: `anomalocaris`  
+  name: Anomalocaris
+- id: `jerry`  
+  name: Jerry
+
 ## Sessions
 
 There is one session everyone is invited to with the id `cs411-final`.
