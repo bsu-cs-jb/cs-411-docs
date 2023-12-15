@@ -91,8 +91,8 @@ Token
 - method: `POST`
 - body: `grant_type=client_credentials`
 - headers
-  * "Content-Type": `application/x-www-form-urlencoded`
-  * "Authorization": `Basic ${base64(CLIENT_ID + ":" + CLIENT_SECRET)}`
+  * `"Content-Type": "application/x-www-form-urlencoded"`
+  * ``"Authorization": `Basic ${base64(CLIENT_ID + ":" + CLIENT_SECRET)}` ``
 
 NOTE: These tokens expire after 10 minutes so you will have to get a new token
 at least every 10 minutes. This helps reduce the number of tokens that my API
