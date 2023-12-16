@@ -34,12 +34,13 @@ yarn setup:api grading
 
 ### Suggestions
 
-| Suggestion | Up-votes | Down-votes |
-| ---------- | -------- | ---------- |
-| pizza      | 1        | 0          |
-| popcorn    | 1        | 1          |
-| pop        | 0        | 1          |
-| fortnite   | 0        | 0          |
+| Suggestion     | Up-votes | Down-votes |
+| ----------     | -------- | ---------- |
+| pizza          | 1        | 0          |
+| popcorn        | 1        | 1          |
+| pop            | 0        | 1          |
+| fortnite       | 0        | 0          |
+| laugh together | 0        | 0          |
 
 1. Add a new suggestion
 2. Invite `test-025`
@@ -50,14 +51,15 @@ yarn setup:api grading
 yarn setup:api grading-votes
 ```
 
-| Suggestion  | Up-votes | Down-votes | User Vote |
-| ----------  | -------- | ---------- | --------- |
-| pizza       | 1        | 0          | down      |
-| popcorn     | 1        | 1          | down      |
-| pop         | 0        | 1          | down      |
-| fortnite    | 0        | 4          | down      |
-| Grading     | 2        | 2          | down      |
-| *all other* | 0        | 1          | down      |
+| Suggestion     | Up-votes | Down-votes | User Vote |
+| ----------     | -------- | ---------- | --------- |
+| pizza          | 1        | 1          | down      |
+| popcorn        | 1        | 2          | down      |
+| pop            | 0        | 2          | down      |
+| fortnite       | 0        | 4          | **none**  |
+| laugh together | 0        | 1          | down      |
+| Grading        | 2        | 3          | down      |
+| *all other*    | 0        | 1          | down      |
 
 ## Step 3: Update invites
 
@@ -69,7 +71,7 @@ yarn setup:api grading-invites
 
 | User             | Accepted | Attending         |
 | ----------       | -------- | ----------        |
-| self             | true     | yes               |
+| self             | false    | no                |
 | Unit Test 2      | false    | N/A (*undecided*) |
 | Unit Test 3      | true     | no                |
 | Unit Test 4      | true     | undecided         |
