@@ -63,21 +63,20 @@ during User Acceptance Testing (UAT).
 ## Feature: Accept and reject the invitation
 
 1. Scenario: User accepts the invitation
-    1. When the user has not accepted the invitation
+    1. Given that I have not accepted the invitation
     2. **then** I should see a prompt and/or button to accept the invitation
     3. **and** all other buttons in the UI should be disabled (attend, invite,
        suggest, vote)
     4. when I click the button to accept the invitation
-    5. **then** I should see that the user has accepted the invitation
+    5. **then** I should see that I have accepted the invitation
     6. **and** all buttons should be enabled (attend, invite, suggest, vote)
-2. Scenario: User rejects (unaccept) the invitation
-    1. When the user has accepted the invitation
+2. Scenario: User rejects (unaccept) the invitation (optional)
+    1. Given that I have accepted the invitation
     2. **then** I should see a button to reject the invitation
     3. **and** all other buttons should be enabled (attend, invite, suggest,
        vote)
     4. when I click the button to reject the invitation
-    5. **then** I should see that the user has not accepted (rejected) the
-       invitation
+    5. **then** I should see that I have not accepted the invitation
     6. **and** all other buttons in the UI should be disabled (attend, invite,
        suggest, vote)
     7. **and** I should see a prompt and/or button to accept the invitation
@@ -85,29 +84,30 @@ during User Acceptance Testing (UAT).
 ## Feature: Update attending status
 
 1. Scenario: User updates their attending status
-    1. When the user has accepted the invitation
-    2. **then** I should see a button to change their attendance at the event
+    1. Given that I have accepted the invitation
+    2. **then** I should see a button to change my attendance
     3. when I tap the button to change attendance
     4. **then** my attendance should change to "yes", "no", or "undecided"
     5. (there can be three buttons or a single button to cycle the status)
+    6. **and** other users should be able to see this change.
 
 ## Feature: Vote on a suggestion
 
 1. Scenario: User votes on a suggestion once
-    1. When the user has accepted the invitation
+    1. Given that I have accepted the invitation
     2. **then** I should see a list of all suggestions for the session
     3. when I tap the "up vote" button / icon
     4. **then** the number of up votes should increase by 1
-    5. **and** the UI should show that I have voted up for this suggestion
+    5. **and** the UI should show that I have up-voted for this suggestion
 2. Scenario: User changes their vote
-    1. When the user has accepted the invitation
+    1. Given that I have accepted the invitation
     2. and I have already up-voted a suggestion
     3. when I tap the "down vote" button / icon
     4. **then** the number of down votes should increase by 1
     5. **and** the number of up votes should decrease by 1
-    6. **and** the UI should show that I have voted down for this suggestion
+    6. **and** the UI should show that I have down-voted this suggestion
 3. Scenario: User removes their vote
-    1. When the user has accepted the invitation
+    1. Given that I have accepted the invitation
     2. and I have already down-voted the suggestion
     3. when I press a button to cancel my vote (vote none / remove down)
     4. **then** the number of down votes should decrease by one
@@ -117,26 +117,32 @@ during User Acceptance Testing (UAT).
 ## Feature: Make a suggestion
 
 1. Scenario: User makes a new suggestion
-    1. When the user has accepted the invitation
-    2. and I press the button to "Make a new suggestion"
+    1. Given that I have accepted the invitation
+    2. when I press the button to "Make a new suggestion"
     3. **then** I should be prompted to enter the new suggestion
-    4. when I enter the new suggestion and press Submit
-    5. **then** the new suggestion should appear in the UI
-    6. **and** the new suggestion should have no up or down votes
+    4. when I enter "Eat pizza" and press Submit
+    5. **then** "Eat pizza" should appear in the suggestion list
+    6. **and** "Eat pizza" should have no up or down votes
 2. Scenario: User votes on a new suggestion
-    1. When I have accepted the invitation
+    1. Given that I have accepted the invitation
     2. and I have added a new suggestion
     3. **then** I should be able to vote up or down for the suggestion
+    4. See Feature: Vote on a suggestion
 
 ## Feature: Invite a friend
+
+For the fake backend you can enter any user name of someone to invite. When
+using the REST API you must enter the `userId` of an existing user. There is a
+list of users that you can invite on the
+[Project 3b: Data]({{ site.baseurl}}/project-03b/data.html) page.
 
 1. Scenario: User invites a friend to the session
     1. When I have accepted the invitation
     2. and I press the button to "Invite a friend"
-    3. **then** I should be prompted to enter the friend's name or user id
-    4. when I enter the name (or id) and press Submit
-    5. **then** the new user's name should appear in the UI
-    6. **and** the new user should not have accepted the invitation
+    3. **then** I should be prompted to enter the friend's user id
+    4. when I enter "test-025" and press Submit
+    5. **then** "Vince (test-025)" should appear in the list of users
+    6. **and** Vince should not have accepted the invitation
 
 ## Feature: Live updates
 
