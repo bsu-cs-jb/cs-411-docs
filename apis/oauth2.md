@@ -58,8 +58,8 @@ fetch("http://cs411.duckdns.org/token", {
     return response.json();
   } else {
     response.text().then((body) => {
-      console.error(`Error response status: ${response.status}`);
-      console.error(`Response body:\n`, JSON.stringify(body, undefined, 2));
+      const message = `Error fetching token ${response.status}: ${body}`;
+      throw new Error();
     });
   }
 }).then((auth) => {
@@ -69,6 +69,8 @@ fetch("http://cs411.duckdns.org/token", {
     console.log("Access Token:", auth.access_token);
     // setAccessToken(auth.access_token);
   }
+}).catch((error) => {
+    console.error(`Error fetching token:`, error);
 });
 ```
 
