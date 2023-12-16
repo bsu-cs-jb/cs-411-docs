@@ -161,18 +161,23 @@ Session methods
 
 ## Requirements
 
-| Category          | Points | Item                             |
-| ------            | ----:  | --                               |
-| Authentication    | --     | API calls                        |
-| View User Session | --     | get the user and current session |
-| Accept & Attend   | --     | accept the invitation            |
-| Accept & Attend   | --     | reject (unaccept) the invitation |
-| Accept & Attend   | --     | update attendance                |
-| Suggest and vote  | --     | vote on a suggestion             |
-| Suggest and vote  | --     | add a new suggestion             |
-| Invite            | --     | invite a friend                  |
-| Code              | --     | Code Review                      |
-| Total             | 20     |                                  |
+| Category               | Points    | Item                                       |
+| ------                 | ----:     | --                                         |
+| Authentication         | 2         | API calls                                  |
+| Self & Current Session | 5         | get the user and current session           |
+| Accept & Attend        | 1         | accept the invitation                      |
+| Accept & Attend        | 0         | un-accept the invitation (optional)        |
+| Accept & Attend        | 1         | update attendance                          |
+| Suggest & Vote         | 1         | add a new suggestion                       |
+| Suggest & Vote         | 2         | vote on a suggestion                       |
+| Suggest & Vote         | 1         | other users' voting changes are shown      |
+| Invitations            | 1         | can invite other users by id               |
+| Invitations            | 1         | invitations changes are properly displayed |
+| Invitations            | 1 (bonus) | Missing userIds displayed to user          |
+| Code                   | 1         | hook and dependencies correct              |
+| Code                   | 4         | Code Review                                |
+| Code                   | 1 (bonus) | Request errors displayed to user nicely    |
+| Total                  | 20        |                                            |
 
 ## Submission
 
