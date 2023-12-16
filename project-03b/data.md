@@ -20,8 +20,8 @@ This explains the app data created on `http://cs411.duckdns.org`.
   * I sent everyone their client secret in a Canvas message. Please start using
       that instead of the test accounts.
 - Fake users
-  * I created 99 fake users who you can invite to your sessions to experiment
-    with the app named `test-000` to `test-098`.
+  * I created 101 fake users who you can invite to your sessions to experiment
+    with the app named `test-000` to `test-100`.
   * at this point, these users do not actively respond to invitations or vote on
     suggestions
 

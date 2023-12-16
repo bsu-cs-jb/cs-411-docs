@@ -52,6 +52,8 @@ although it might cause some additional re-rendering.
   and will receive [429 Too Many Requests](https://http.cat/status/429). Fix the
   loop and try again after
   1 minute.
+- There is a list of users that you can invite on the
+  [Project 3b: Data]({{ site.baseurl}}/project-03b/data.html) page.
 
 ## API Specification
 

@@ -35,18 +35,17 @@ during User Acceptance Testing (UAT).
 
 1. Scenario: App launches configuration
     1. When I launch the app for the first time
-    2. **then** I should see that "Admin" has invited me to "Grading session"
-    3. **and** I should see the user has not accepted the invitation
+    2. **then** I should see that "Unit Test 1" has invited me to "Grading session"
+    3. **and** I should see I have not accepted the invitation
     4. **and** I should see the list of users who have been invited
     5. **and** each user should display their accepted and attending statuses
 
        | User          | Accepted | Attending  |
        | ----------    | -------- | ---------- |
-       | Unit Test 1   | false    | N/A        |
-       | Unit Test 2   | true     | yes        |
+       | Unit Test 1   | true     | yes        |
+       | Unit Test 2   | false    | N/A        |
        | Unit Test 3   | true     | no         |
        | Unit Test 4   | true     | undecided  |
-       | Admin (owner) | true     | yes        |
 
     6. **and** I should see the list of suggestions for the session
     7. **and** each suggestion should show the number of up/down votes
