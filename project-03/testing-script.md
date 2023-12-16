@@ -131,12 +131,39 @@ during User Acceptance Testing (UAT).
 ## Feature: Invite a friend
 
 1. Scenario: User invites a friend to the session
-    1. When the user has accepted the invitation
-    2. TODO
+    1. When I have accepted the invitation
+    2. and I press the button to "Invite a friend"
+    3. **then** I should be prompted to enter the friend's name or user id
+    4. when I enter the name (or id) and press Submit
+    5. **then** the new user's name should appear in the UI
+    6. **and** the new user should not have accepted the invitation
 
 ## Feature: Live updates
 
-1. Scenario: User accepts the invitation
-    1. When user "Unit Test 1" accepts the invitation
-    2. **then** I should see it change in the UI
+1. Scenario: New user is invited
+    1. When user `A` has not been invited to the session
+    2. **then** I should not see their name in the UI.
+    3. When user `A` is invited to the event
+    4. **then** user `A`'s name should appear in the UI
+    5. **and** user `A` should not have accepted the invitation
+2. Scenario: User accepts the invitation
+    1. When user `A` has not accepted the invitation
+    2. **then** I should see that they have not accepted it.
+    3. When user `A` accepts the invitation
+    4. **then** I should that they *have* accepted the invitation in the UI
+3. Scenario: User changes their attendance
+    1. When user `A` has accepted the invitation and is not attending
+    2. **then** I should see that they are not attending.
+    3. When user `A` changes their attendance to "going" or "undecided"
+    4. **then** I should their new choice in the UI.
+4. Scenario: User votes for the first time
+    1. Given user `A` has not voted for suggestion `Q`
+    2. when user `A` up-votes suggestion `Q`
+    3. **then** I should see suggestion `Q`'s up-votes increase by 1
+5. Scenario: User changes their vote
+    1. Given user `A` has up-voted suggestion `Q`
+    2. when user `A` down-votes suggestion `Q`
+    3. **then** I should see suggestion `Q`'s down-votes increase by 1
+    3. **and** I should see suggestion `Q`'s up-votes decrease by 1
+
 
