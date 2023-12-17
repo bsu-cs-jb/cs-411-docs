@@ -9,3 +9,6 @@ published: true
 # {{ page.title }}
 
 **ATTENTION:** only 2 classes left in the semester after today.
+
+- [Project 3]({{ site.baseurl}}/project-03) is due today.
+
