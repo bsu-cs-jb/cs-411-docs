@@ -3,7 +3,7 @@ title: Week 17, Dec 11
 layout: default
 has_children: true
 nav_order: 27
-published: false
+published: true
 ---
 
 # {{ page.title }}

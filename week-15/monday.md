@@ -3,7 +3,7 @@ title: Monday, Nov 27
 layout: default
 parent: Week 15, Nov 27
 nav_order: 1
-published: false
+published: true
 ---
 
 # {{ page.title }}

@@ -3,7 +3,7 @@ title: Wednesday, Dec 6
 layout: default
 parent: Week 16, Dec 4
 nav_order: 2
-published: false
+published: true
 ---
 
 # {{ page.title }}
