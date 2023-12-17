@@ -9,3 +9,5 @@ published: true
 # {{ page.title }}
 
 **ATTENTION:** only 1 class left in the semester after today.
+
+Officially assigned and published [Project 3b]({{ site.baseurl}}/project-03b).

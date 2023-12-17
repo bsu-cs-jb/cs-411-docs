@@ -9,4 +9,6 @@ nav_order: 1
 
 **ATTENTION:** only 7 classes left in the semester after today.
 
+## Topics
 
+- Monetization of mobile applications
