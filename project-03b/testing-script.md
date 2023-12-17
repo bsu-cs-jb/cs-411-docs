@@ -16,7 +16,7 @@ for full details on the user interface expectations.
 ## Initial Setup
 
 ```bash
-yarn setup:api grading
+yarn setup:api grading-1-init
 ```
 
 1. Generate fresh grading session
@@ -48,7 +48,7 @@ yarn setup:api grading
 ## Step 2: Update votes
 
 ```bash
-yarn setup:api grading-votes
+yarn setup:api grading-2-votes
 ```
 
 | Suggestion     | Up-votes | Down-votes | User Vote |
@@ -66,8 +66,10 @@ yarn setup:api grading-votes
 **NOTE:** Be sure to invite `test-025` first.
 
 ```bash
-yarn setup:api grading-invites
+yarn setup:api grading-3-invites
 ```
+
+The UI should become read-only again after the update.
 
 | User             | Accepted | Attending         |
 | ----------       | -------- | ----------        |
@@ -85,7 +87,7 @@ yarn setup:api grading-invites
 ## End: Refresh for next session
 
 ```bash
-yarn setup:api grading
+yarn setup:api grading-1-init
 ```
 
 
